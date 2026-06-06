@@ -1,6 +1,4 @@
-![](/overview/overview.png)
-
-# Semiblock.ai Platform Overview
+![overview banner](overview/overview.png)
 
 ## 1. Product Introduction
 
