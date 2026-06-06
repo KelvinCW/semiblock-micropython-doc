@@ -20,17 +20,7 @@ Snap those together and you have a working program. Because the blocks only fit 
 
 SemiBlock is not a toy. Every block maps to actual MicroPython. As you build, the generated program appears next to your blocks:
 
-```python
-from machine import Pin, SoftI2C, ADC, PWM, UART
-from time import sleep, sleep_ms, sleep_us
-
-### start
-
-led = Pin(2, Pin.OUT)
-led.on()
-sleep(1)
-led.off()
-```
+![](img/get-real-code.png)
 
 This means SemiBlock is also a great way to **learn Python**: build with blocks, then read the code they produce.
 
