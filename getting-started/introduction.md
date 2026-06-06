@@ -1,11 +1,8 @@
 # Introduction
 
-Welcome to **SemiBlock MicroPython** — a friendly, visual way to program real
-microcontrollers without typing a single line of code (unless you want to!).
+Welcome to **SemiBlock MicroPython** — a friendly, visual way to program real microcontrollers without typing a single line of code (unless you want to!).
 
-If you have never written a program before, you are in exactly the right place.
-This guide starts from zero and walks you all the way to blinking a real LED on
-an ESP32 board.
+If you have never written a program before, you are in exactly the right place. This guide starts from zero and walks you all the way to blinking a real LED on an ESP32 board.
 
 ## What you will build
 
@@ -19,9 +16,7 @@ By the end of **Part I — Getting Started** you will be able to:
 
 ## How SemiBlock works (the big picture)
 
-SemiBlock is a **block editor**. You drag colorful puzzle-piece blocks from a
-toolbox on the left and connect them in the middle of the screen. As you build,
-SemiBlock automatically writes the matching **MicroPython** program for you.
+SemiBlock is a **block editor**. You drag colorful puzzle-piece blocks from a toolbox on the left and connect them in the middle of the screen. As you build, SemiBlock automatically writes the matching **MicroPython** program for you.
 
 ```python
 from machine import Pin, SoftI2C, ADC, PWM, UART
@@ -52,9 +47,7 @@ seeing the code each block produces.
 
 ## Try it yourself
 
-Before reading on, look at the code block above and guess: which line do you
-think turns the LED *on*? Keep your guess in mind — you will confirm it in the
-[first program](first-program.md) chapter.
+Before reading on, look at the code block above and guess: which line do you think turns the LED *on*? Keep your guess in mind — you will confirm it in the [first program](first-program.md) chapter.
 
 ## Next
 
