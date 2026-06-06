@@ -35,6 +35,8 @@ The block toolbox is organized into categories. Some are familiar programming id
 
 We tour the whole toolbox later in [Toolbox tour](toolbox-tour.md).
 
+![](img/toolbox.png)
+
 ## Where it runs
 
 SemiBlock runs in your **web browser**. There is nothing heavy to install just to use the editor — you open a page, drag blocks, and copy the generated code to your board. Your work is even saved automatically in the browser.
