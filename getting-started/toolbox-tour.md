@@ -49,6 +49,10 @@ After the **Sensor & AI Blocks** separator:
 - **Generative AI** — `askDeepSeek`.
 - **Open Data** — weather, holidays, bus and flight info.
 
+![](img/blockCat1.png)
+
+![](img/blockCat2.png)
+
 ## Reading a block's label
 
 Every block shows a human-readable label. Hardware blocks often mirror the code they create. For example the Pin block reads `%1 = Pin(%2, %3)` and produces:
