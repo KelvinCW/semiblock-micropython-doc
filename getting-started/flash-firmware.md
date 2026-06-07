@@ -65,6 +65,8 @@ After flashing, MicroPython is running on the board. You can verify by opening a
 
 Run just the `erase_flash` step. If it completes, your computer can talk to the board — the hardest part is done.
 
+# Video Tutorial
+
 ## Next
 
 Continue to [Connect your board](connect-board.md)

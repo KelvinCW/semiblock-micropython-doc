@@ -1,4 +1,4 @@
-![overview banner](overview/overview.png)
+![overview banner](overview/overview.png){width=100%}
 
 ## 1. Product Introduction
 
