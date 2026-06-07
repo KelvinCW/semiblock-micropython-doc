@@ -33,9 +33,15 @@ We suggest these devices:
 
 ### [ESP32-C3-Zero](https://www.waveshare.com/esp32-c3-zero.htm)
 
+Compact Waveshare board based on the ESP32-C3 (RISC-V).
+
 ### [ESP32-C6-Zero](https://docs.waveshare.com/ESP32-C6-Zero)
 
+Waveshare board powered by ESP32-C6FH8 (RISC-V, up to 160 MHz). Features Wi-Fi 6, Bluetooth 5, IEEE 802.15.4 (Zigbee/Thread), USB-C, and a WS2812 RGB LED. Supports low-power modes.
+
 ### [ESP32 Touch LCD 3.5"](https://www.waveshare.com/esp32-touch-lcd-3.5.htm)
+
+Waveshare all-in-one board with 3.5" touchscreen. (See also the dedicated [Waveshare 3.5" all-in-one display board](../display/waveshare35.md) documentation for the ESP32-S3 variant with LVGL support.)
 
 ## Next
 
