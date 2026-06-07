@@ -4,6 +4,9 @@ SemiBlock generates MicroPython for **ESP32-class** microcontrollers. This page 
 
 The toolbox even includes a dedicated **Machine** category and a **Waveshare 3.5"** category for board-specific setup blocks.
 
+> [!NOTE]
+> Information to highlight.
+
 ## ESP32 (classic)
 
 The original ESP32 is the most common board for SemiBlock projects.
