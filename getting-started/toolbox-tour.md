@@ -7,7 +7,7 @@ The **toolbox** is the vertical list of categories on the left edge of the edito
 3. Move blocks near each other — matching connectors **snap** together with a click.
 4. To delete a block, drag it back over the toolbox (it turns into a trash area).
 
-![](img/dragOutBlockAndDelete.gif)
+![](img/dragOutBlockAndDelete.gif){width=100%}
 
 ## How the toolbox is organized
 
