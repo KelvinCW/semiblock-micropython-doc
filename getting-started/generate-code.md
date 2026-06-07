@@ -1,5 +1,3 @@
-# Generating MicroPython code
-
 One of SemiBlock's best features is that it writes MicroPython for you **as you build**. There's no separate "compile" step. 
 
 > the code pane updates the moment you change a block.
