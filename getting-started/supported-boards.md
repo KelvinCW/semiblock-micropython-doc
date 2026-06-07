@@ -5,7 +5,7 @@ SemiBlock generates MicroPython for **ESP32-class** microcontrollers. This page 
 The toolbox even includes a dedicated **Machine** category and a **Waveshare 3.5"** category for board-specific setup blocks.
 
 > [!NOTE]
-> Information to highlight.
+> We can't test all ESP32 devices, basically any device can run micropython and support mpremote command will works
 
 ## ESP32 (classic)
 
