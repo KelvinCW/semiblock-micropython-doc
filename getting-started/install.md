@@ -61,17 +61,6 @@ We confirm the board is detected in [Connect your board](connect-board.md).
 The SemiBlock editor itself runs in your browser — there is nothing to install
 for it. We open it in [Open the editor](open-editor.md).
 
-## Quick checklist
-
-- [ ] `python3 --version` prints a version
-- [ ] `esptool.py version` prints a version
-- [ ] USB cable that supports **data** (not charge-only)
-
-## Try it yourself
-
-Run both version commands above. If both print a number, your computer is fully
-prepared to flash a board.
-
 ## Next
 
 Continue to [Flash firmware](flash-firmware.md)
