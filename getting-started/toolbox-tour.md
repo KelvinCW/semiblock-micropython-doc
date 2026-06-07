@@ -7,6 +7,8 @@ The **toolbox** is the vertical list of categories on the left edge of the edito
 3. Move blocks near each other — matching connectors **snap** together with a click.
 4. To delete a block, drag it back over the toolbox (it turns into a trash area).
 
+![](img/dragOutBlockAndDelete.gif)
+
 ## How the toolbox is organized
 
 SemiBlock groups categories with labeled **separators** so related blocks sit together. From top to bottom you'll find three big sections.
