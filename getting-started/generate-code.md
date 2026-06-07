@@ -12,32 +12,11 @@ The left **code pane** (labeled *Generated MicroPython*) shows your program in r
 
 Each block knows how to turn itself into a line (or several lines) of MicroPython. SemiBlock walks your blocks from top to bottom and joins the results into one program. Change a number, and only that line changes.
 
-## A worked example
-
-Suppose you've built the blink program. The blocks generate:
-
-```python
-from machine import Pin
-from time import sleep
-
-led = Pin(2, Pin.OUT)
-
-while True:
-    led.on()
-    sleep(0.5)
-    led.off()
-    sleep(0.5)
-```
-
-Notice three things SemiBlock handled for you:
-
-- **Imports** — it knows `Pin` needs `from machine import Pin`.
-- **Indentation** — blocks inside the `while` loop are indented correctly.
-- **Order** — statements appear in the order you stacked the blocks.
-
 ## The main method block
 
-Most programs start with the **createMainMethod** block (Machine category). Everything you snap inside it becomes the body of your program. It keeps your generated code tidy and predictable.
+Most programs start with the **start** block (Machine category). Everything you snap inside it becomes the body of your program. It keeps your generated code tidy and predictable.
+
+![](img/startBlock.png){width=100%}
 
 ## Reading the code to learn
 
