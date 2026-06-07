@@ -27,35 +27,15 @@ The ESP32-S3 is a newer member of the same family.
 
 One difference to remember: many S3 boards use an **addressable (NeoPixel) LED** for their onboard light instead of a plain GPIO LED. For S3 onboard LEDs you may use the **Pin** category's NeoPixel blocks rather than simple on/off.
 
-## Waveshare 3.5" board
+## Tested ESP32 boards
 
-SemiBlock includes special support for the **Waveshare 3.5"** display board, which pairs an ESP32 with a touchscreen.
+We suggest these devices:
 
-- Find its setup block in the **Waveshare 3.5"** toolbox category.
-- Use it to initialize the display before drawing to the screen.
+### [ESP32-C3-Zero](https://www.waveshare.com/esp32-c3-zero.htm)
 
-Board-level helpers like reset, sleep, and Wi-Fi live in the **Machine** category (see `toolboxMachine.js`), and apply to all of these boards.
+### [ESP32-C6-Zero](https://docs.waveshare.com/ESP32-C6-Zero)
 
-## Choosing a board
-
-| If you want to... | Pick |
-|-------------------|------|
-| Start cheap and simple | ESP32 (classic) |
-| Do more / use native USB | ESP32-S3 |
-| Build a touchscreen project | Waveshare 3.5" |
-
-Any of them works for the tutorials in this guide. Where a step differs by board (for example, the onboard LED pin), we will call it out.
-
-## Pins are not always the same
-
-GPIO numbers can differ between boards. A pin that is safe to use on one board might be reserved on another. When in doubt:
-
-- Check your board's pinout diagram.
-- Start with GPIO 2 for a classic ESP32 LED test.
-
-## Try it yourself
-
-Find the printed labels on your board (look for "IO2", "GND", "3V3"). Locating these now will make wiring your first circuit much easier later.
+### [ESP32 Touch LCD 3.5"](https://www.waveshare.com/esp32-touch-lcd-3.5.htm)
 
 ## Next
 
