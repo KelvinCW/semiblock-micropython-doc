@@ -6,7 +6,7 @@ One of SemiBlock's best features is that it writes MicroPython for you **as you 
 
 The left **code pane** (labeled *Generated MicroPython*) shows your program in real time. It is read-only: you edit blocks, not text, and the code follows.
 
-![](img/codePane.png)
+![](img/codePane.png){width=100%}
 
 ## How generation works
 
