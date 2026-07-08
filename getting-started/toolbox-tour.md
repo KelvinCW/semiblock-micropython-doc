@@ -39,10 +39,10 @@ After the **Hardware Blocks** separator are categories that talk to the chip's p
 
 | Image | Hardware Blocks | About |
 | ---   | ------------    | ---   |
-|![](img/hardblocks/hardblock_Pin.png)|**Pin**| digital I/O, UART, NeoPixel|
-|![](img/hardblocks/hardblock_Timer.png) ![](img/hardblocks/hardblock_PWM.png) ![](img/hardblocks/hardblock_ADC.png)| **Timer**, **PWM**, **ADC**| timing and analog signals|
-|![](img/hardblocks/hardblock_SPI.png) ![](img/hardblocks/hardblock_I2C.png) ![](img/hardblocks/hardblock_OneWire.png)|**SPI**, **I2C**, **One-Wire**|communication buses|
-|![](img/hardblocks/hardblock_WatchDog.png) ![](img/hardblocks/hardblock_SDcard.png) ![](img/hardblocks/hardblock_RMT.png) ![](img/hardblocks/hardblock_Touch.png) ![](img/hardblocks/hardblock_DHT.png) ![](img/hardblocks/hardblock_HC.png)|**WatchDog**, **SD Card**, **RMT**, **Capacitive Touch**, **DHT**, **HC-SR04 Sonar**|sensors and utilities|
+| ![](img/hardblocks/hardblock_Pin.png)|**Pin**| digital I/O, UART, NeoPixel |
+| ![](img/hardblocks/hardblock_Timer.png) ![](img/hardblocks/hardblock_PWM.png) ![](img/hardblocks/hardblock_ADC.png)| **Timer**, **PWM**, **ADC**| timing and analog signals |
+| ![](img/hardblocks/hardblock_SPI.png) ![](img/hardblocks/hardblock_I2C.png) ![](img/hardblocks/hardblock_OneWire.png)|**SPI**, **I2C**, **One-Wire**|communication buses |
+| ![](img/hardblocks/hardblock_WatchDog.png) ![](img/hardblocks/hardblock_SDcard.png) ![](img/hardblocks/hardblock_RMT.png) ![](img/hardblocks/hardblock_Touch.png) ![](img/hardblocks/hardblock_DHT.png) ![](img/hardblocks/hardblock_HC.png)|**WatchDog**, **SD Card**, **RMT**, **Capacitive Touch**, **DHT**, **HC-SR04 Sonar**|sensors and utilities |
 
 ### Sensor & AI Blocks
 
@@ -52,18 +52,19 @@ After the **Sensor & AI Blocks** separator:
 
 | Image | Hardware Blocks | About |
 | ---   | ------------    | ---   |
-|![](img/hardblocks/hardblock_Sensors.png)|**Sensors** |temperature, 4-digit display, motor, servo|
-|![](img/hardblocks/hardblock_AI.png)|**Generative AI** |`askDeepSeek`|
-|![](img/hardblocks/hardblock_OpenData.png)|**Open Data** |weather, holidays, bus and flight info|
+| ![](img/hardblocks/hardblock_Sensors.png)|**Sensors** |temperature, 4-digit display, motor, servo |
+| ![](img/hardblocks/hardblock_AI.png)|**Generative AI** |`askDeepSeek` |
+| ![](img/hardblocks/hardblock_OpenData.png)|**Open Data** |weather, holidays, bus and flight info |
 
 
 
 ## Reading a block's label
 
 Every block shows a human-readable label. Hardware blocks often mirror the code they create. For example the Pin block reads `%1 = Pin(%2, %3)` and produces:
+
 | Block | Code (Python) |
 | ---   | ---           |
-|![](img/block_led_2.png)|```led = Pin(2, Pin.OUT)```|
+| ![](img/block_led_2.png)|`led = Pin(2, Pin.OUT)` |
 
 ![](img/blockLabel.png){width=100%}
 
