@@ -5,7 +5,7 @@
 ## Part I — Getting Started
 
 - [Overview](overview.md)
-- [Introduction](getting-started/introduction.md)
+- [Introduction Test](getting-started/introduction.md)
   - [What is SemiBlock MicroPython?](getting-started/what-is-semiblock.md)
   - [What is MicroPython?](getting-started/what-is-micropython.md)
   - [Supported Boards (ESP32, ESP32-S3, Waveshare 3.5", etc.)](getting-started/supported-boards.md)
