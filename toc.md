@@ -19,7 +19,7 @@
   - [Uploading and running on the board](getting-started/upload-run.md)
 - [Editor Walkthrough](getting-started/editor-tour.md)
   - [Workspace, toolbox, and code pane](getting-started/workspace.md)
-  - [Save / Load / Clear](getting-started/save-load.md)
+  - [Save / Open / Clear](getting-started/save-load.md)
   - [Built-in simulator](getting-started/simulator.md)
 
 ## Part II — Python Language Blocks

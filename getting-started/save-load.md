@@ -1,6 +1,6 @@
-# Save / Load / Clear
+# Save / Open / Clear
 
-Projects grow over time, so SemiBlock lets you **save** your blocks, **load**
+Projects grow over time, so SemiBlock lets you **save** your blocks, **open**
 them back later, and **clear** the workspace to start fresh. These three buttons
 sit along the top of the editor.
 
@@ -15,6 +15,8 @@ workspace into a JSON snapshot.
 
 ## The Save button
 
+> ![](img/Save.png){width=100%}
+
 Clicking **Save** stores your current workspace. SemiBlock writes the snapshot to
 your browser's **local storage**, so it persists between sessions on the same
 computer and browser.
@@ -26,9 +28,11 @@ computer and browser.
 Because it uses local storage, your saved project stays on **your machine** —
 nothing is uploaded to a server.
 
-## The load button
+## The open button
 
-Clicking **load** restores a previously saved snapshot back into the workspace.
+> ![](img/Open.png){width=100%}
+
+Clicking **open** restores a previously saved snapshot back into the workspace.
 SemiBlock rebuilds every block from the saved JSON, and the code pane refills
 automatically.
 
@@ -36,6 +40,8 @@ automatically.
 > restore happens cleanly without triggering a flurry of change events.
 
 ## The Clear button
+
+> ![](img/Clear.png){width=100%}
 
 Clicking **Clear** empties the workspace. Use it when you want a blank canvas for
 a new idea.
@@ -47,7 +53,7 @@ a new idea.
 1. Build some blocks.
 2. Press **Save** to capture your progress.
 3. Experiment freely.
-4. If an experiment goes wrong, press **load** to return to the saved version.
+4. If an experiment goes wrong, press **open** to return to the saved version.
 5. Press **Clear** when you're ready to start something new.
 
 ## Important notes
@@ -61,7 +67,7 @@ a new idea.
 ## Try it yourself
 
 Build the blink program, press **Save**, then press **Clear** to empty the
-canvas. Now press **load** — your blocks should reappear exactly as before, and
+canvas. Now press **Open** — your blocks should reappear exactly as before, and
 the code pane should show the blink program again.
 
 ## Next
