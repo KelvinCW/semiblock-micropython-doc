@@ -5,6 +5,8 @@ go-to block when you know exactly how many rounds you want.
 
 ## The `forLoop` block
 
+> ![](img/forloop1.png){width=inherit}
+
 - **Label:** `for %1 in range(%2):`
 - **Inputs:**
   - `var1` — the counter variable name (default `x`).
@@ -17,6 +19,8 @@ With the defaults and a `print` block inside, SemiBlock generates:
 for x in range(10):
 	print(x)
 ```
+
+> ![](img/forloop2.png){width=inherit}
 
 The counter `x` starts at `0` and counts up to `9` (ten values in total). The
 body is indented with a tab, which is how Python knows those lines belong to the
@@ -39,6 +43,8 @@ for i in range(3):
 	led.off()
 	sleep(1)
 ```
+
+> ![](img/forloop3.png){width=inherit}
 
 This turns an LED on and off three times, pausing one second between each
 change.
