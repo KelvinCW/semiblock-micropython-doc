@@ -37,23 +37,28 @@ After the **Hardware Blocks** separator are categories that talk to the chip's p
 
 ![](img/blockCat2.png){width=100%}
 
-
 #### **Pin** (digital I/O, UART, NeoPixel)
 
-> ![](img/hardblocks/hardblock_Pin.png){width=inherit}
+> ![](img/hardblocks/hardblock_Pin.png){width=inherit border-radius: 50}
 
 #### **Timer**, **PWM**, **ADC** (timing and analog signals)
 
-> ![](img/hardblocks/hardblock_Timer.png){width=inherit} ![](img/hardblocks/hardblock_PWM.png){width=inherit} ![](img/hardblocks/hardblock_ADC.png){width=inherit}
+> ![](img/hardblocks/hardblock_Timer.png){width=inherit}
+> ![](img/hardblocks/hardblock_PWM.png){width=inherit}
+> ![](img/hardblocks/hardblock_ADC.png){width=inherit}
 
 #### **SPI**, **I2C**, **One-Wire** (communication buses)
 
-> ![](img/hardblocks/hardblock_SPI.png){width=inherit} ![](img/hardblocks/hardblock_I2C.png){width=inherit} ![](img/hardblocks/hardblock_OneWire.png){width=inherit}
+> ![](img/hardblocks/hardblock_SPI.png){width=inherit} 
+> ![](img/hardblocks/hardblock_I2C.png){width=inherit} 
+> ![](img/hardblocks/hardblock_OneWire.png){width=inherit}
 
-| Image | Hardware Blocks | About |
-| ---   | ------------    | ---   |
-| ![](img/hardblocks/hardblock_SPI.png) ![](img/hardblocks/hardblock_I2C.png) ![](img/hardblocks/hardblock_OneWire.png)|**SPI**, **I2C**, **One-Wire**|communication buses |
-| ![](img/hardblocks/hardblock_WatchDog.png) ![](img/hardblocks/hardblock_SDcard.png) ![](img/hardblocks/hardblock_RMT.png) ![](img/hardblocks/hardblock_Touch.png) ![](img/hardblocks/hardblock_DHT.png) ![](img/hardblocks/hardblock_HC.png)|**WatchDog**, **SD Card**, **RMT**, **Capacitive Touch**, **DHT**, **HC-SR04 Sonar**|sensors and utilities |
+#### **WatchDog**, **SD Card**, **RMT**, **Capacitive**, **DHT**, **HC-SR04 Sonar** (sensors and utilities)
+
+> ![](img/hardblocks/hardblock_SPI.png){width=inherit} 
+> ![](img/hardblocks/hardblock_I2C.png){width=inherit} 
+> ![](img/hardblocks/hardblock_OneWire.png){width=inherit}
+
 
 ### Sensor & AI Blocks
 
@@ -61,12 +66,17 @@ After the **Sensor & AI Blocks** separator:
 
 ![](img/blockCat1.png){width=100%}
 
-| Image | Hardware Blocks | About |
-| ---   | ------------    | ---   |
-| ![](img/hardblocks/hardblock_Sensors.png)|**Sensors** |temperature, 4-digit display, motor, servo |
-| ![](img/hardblocks/hardblock_AI.png)|**Generative AI** |`askDeepSeek` |
-| ![](img/hardblocks/hardblock_OpenData.png)|**Open Data** |weather, holidays, bus and flight info |
+#### **Sensors** (temperature, 4-digit display, motor, servo)
 
+> ![](img/hardblocks/hardblock_Sensors.png){width=inherit}
+
+#### **Generative AI** (askDeepSeek)
+
+> ![](img/hardblocks/hardblock_AI.png){width=inherit}
+
+#### **Open Data** (weather, holidays, bus and flight info)
+
+> ![](img/hardblocks/hardblock_OpenData.png){width=inherit}
 
 
 ## Reading a block's label
