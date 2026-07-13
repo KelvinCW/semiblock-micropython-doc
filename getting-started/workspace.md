@@ -40,7 +40,7 @@ Blocks have shaped connectors:
 
 > ![](img/block_led_onoff.png){width=inherit}
 
-#### **Value Blocks** feature a **Rounded Pill Shape**.
+#### **Value Blocks** feature a **Capsule Pill Shape**.
 
 > ![](img/pill_shape_block.png){width=inherit}
 
