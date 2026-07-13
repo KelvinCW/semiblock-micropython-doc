@@ -16,7 +16,7 @@ on the board.
 
 ## Step 1 — Copy the generated code
 
-![](img/Instructions/Copy_the_generated_code1_pink.png){width=100%,}
+![](img/Instructions/Copy_the_generated_code1_pink.png){width=100%}
 
 ![](img/Instructions/Copy_the_generated_code2_pink.png){width=100%}
 
