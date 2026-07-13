@@ -1,4 +1,4 @@
-![overview banner](overview/overview.png){width=100%}
+![overview banner](overview/overview.png){width=100% border="10px solid pink"}
 
 ## 1. Product Introduction
 
