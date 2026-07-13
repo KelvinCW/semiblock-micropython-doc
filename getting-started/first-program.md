@@ -13,39 +13,31 @@ A blink is just four ideas repeated forever:
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
-| `%1 = Pin(%2, %3)`     | Pin      | Creates a pin object (e.g. `led`) as `OUT`.    |
+| `%1 = Pin(%2, %3)` | Pin | Creates a pin object (e.g. `led`) as `OUT`. |
 
-<<<<<<< HEAD
-> ![](img/block_pin.png){width=inherit%}
-=======
 > ![](img/block_pin.png){width=inherit}
->>>>>>> eefc9853e4cbe11b7467e0032ba36da233aaec18
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
-| `%1.on()`              | Pin      | Drives the pin high — LED **on**.              |
+| `%1.on()` | Pin | Drives the pin high — LED **on**. |
 
-<<<<<<< HEAD
-> ![](img/block_pin_on.png){width=inherit%}
-=======
 > ![](img/block_pin_on.png){width=inherit}
->>>>>>> eefc9853e4cbe11b7467e0032ba36da233aaec18
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
-| `%1.off()`             | Pin      | Drives the pin low — LED **off**.              |
+| `%1.off()` | Pin | Drives the pin low — LED **off**. |
 
 > ![](img/block_pin_off.png){width=inherit}
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
-| `while %1:`            | Language | Repeats the blocks inside while true.          |
+| `while %1:` | Language | Repeats the blocks inside while true. |
 
 > ![](img/block_while_true.png){width=inherit}
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
-| `sleep(...)`           | Machine  | Pauses for a number of seconds.       
+| `sleep(...)` | Machine | Pauses for a number of seconds. |     
 
 > ![](img/block_sleep.png){width=inherit}
 

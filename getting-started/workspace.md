@@ -36,7 +36,13 @@ Blocks have shaped connectors:
 - **Statement** blocks stack vertically (top-to-bottom flow).
 - **Value** blocks plug into the notches of other blocks (inputs).
 
-> 
+#### **Statement Blocks** feature a **Rectangular Puzzle Shape**.
+
+> ![](img/block_led_onoff.png){width=inherit}
+
+#### **Value Blocks** feature a **Rounded Pill Shape**.
+
+> ![](img/pill_shape_block.png){width=inherit}
 
 When two compatible connectors get close, they highlight and snap together.
 
@@ -44,6 +50,8 @@ When two compatible connectors get close, they highlight and snap together.
 
 Right-click any block for handy actions: **Duplicate**, **Add Comment**,
 **Collapse**, **Disable**, and **Delete**.
+
+> ![](img/block_menus.png){width=inherit}
 
 ## The code pane
 
