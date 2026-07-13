@@ -12,6 +12,8 @@ Across the top of the editor are three buttons:
 - **load** — restores a previously saved workspace.
 - **Save** — stores your current blocks so you can come back later.
 
+![](img/Instructions/Toolbar_pink.png){width=100%}
+
 You'll use these in [Save / Load / Clear](save-load.md).
 
 ## The split layout
@@ -20,13 +22,15 @@ Below the toolbar the screen is split into two panes:
 
 ```text
 ┌───────────────────────────┬───────────────────────┐
-│  Generated MicroPython     │   Block workspace      │
-│  (read-only code pane)     │   (drag & arrange)     │
+│  Generated MicroPython    │   Block workspace     │
+│  (read-only code pane)    │   (drag & arrange)    │
 └───────────────────────────┴───────────────────────┘
 ```
 
 - **Generated MicroPython (code pane)** — read-only, updates live as you build.
 - **Block workspace** — the canvas where you drag, snap, and arrange blocks.
+
+![](img/Instructions/Split_layout.png){width=100% style="border-radius: 50px;"}
 
 The toolbox of categories lives along the edge of the workspace.
 

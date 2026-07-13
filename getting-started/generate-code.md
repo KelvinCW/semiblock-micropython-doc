@@ -36,7 +36,9 @@ Because the pane shows standard MicroPython, you can select the text and copy it
 
 Build a two-line program: a **Pin** block (`led = Pin(2, Pin.OUT)`) followed by a single **`%1.on()`** block. Confirm the code pane shows the `from machine import Pin` line appear automatically. Then add **`sleep`** and watch a new import appear.
 
-> ![](img/block_led_2.png){width=inherit} ![](img/block_led_onoff.png){width=inherit}
+> ![](img/block_led_2.png){width=inherit}
+> ![](img/block_led_onoff.png){width=inherit}
+> ![](img/block_sleep.png){width=inherit}
 
 ## Next
 
