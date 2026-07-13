@@ -24,18 +24,18 @@
 
 ## Part II — Python Language Blocks
 
-- Python Language Blocks
-  - [Language Category](language/index.md)
-    - [Free code blocks](language/free-code.md)
-    - [`import` and `from … import`](language/imports.md)
-    - [`for` loops](language/for-loop.md)
-    - [`while` loops](language/while-loop.md)
-    - [`if` / `elif` / `else`](language/if-else.md)
-    - [`print` and comments](language/print-comment.md)
-    - [`pass` statement](language/pass.md)
-    - [Variables](language/variables.md)
-    - [Defining functions (`def`)](language/def.md)
-    - [Threads (`startThread`)](language/threads.md)
+
+- [Language Category](language/index.md)
+  - [Free code blocks](language/free-code.md)
+  - [`import` and `from … import`](language/imports.md)
+  - [`for` loops](language/for-loop.md)
+  - [`while` loops](language/while-loop.md)
+  - [`if` / `elif` / `else`](language/if-else.md)
+  - [`print` and comments](language/print-comment.md)
+  - [`pass` statement](language/pass.md)
+  - [Variables](language/variables.md)
+  - [Defining functions (`def`)](language/def.md)
+  - [Threads (`startThread`)](language/threads.md)
 - [Math](math/index.md)
   - [Integers, add / subtract / multiply / divide / modulo / power](math/arithmetic.md)
   - [`sqrt`, `sin`, `cos`, `tan`, `log`, `exp`](math/functions.md)
