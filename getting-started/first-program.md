@@ -21,7 +21,7 @@ A blink is just four ideas repeated forever:
 | --- | --- | --- |
 | `%1.on()`              | Pin      | Drives the pin high — LED **on**.              |
 
-> ![](img/block_pin_on.png)
+> ![](img/block_pin_on.png){width=100%}
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
