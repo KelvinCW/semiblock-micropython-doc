@@ -43,7 +43,9 @@ After the **Hardware Blocks** separator are categories that talk to the chip's p
 
 > ## **Timer**, **PWM**, **ADC** (timing and analog signals)
 >
->> ![](img/hardblocks/hardblock_Timer.png){width=inherit} ![](img/hardblocks/hardblock_PWM.png){width=inherit} ![](img/hardblocks/hardblock_ADC.png){width=inherit}
+>> ![](img/hardblocks/hardblock_Timer.png){width=inherit} 
+>> ![](img/hardblocks/hardblock_PWM.png){width=inherit}
+>> ![](img/hardblocks/hardblock_ADC.png){width=inherit}
 
 
 | Image | Hardware Blocks | About |
