@@ -37,10 +37,17 @@ After the **Hardware Blocks** separator are categories that talk to the chip's p
 
 ![](img/blockCat2.png){width=100%}
 
+> ## **Pin** (digital I/O, UART, NeoPixel)
+>
+>> ![](img/hardblocks/hardblock_Pin.png){width=inherit%}
+
+> ## **Timer**, **PWM**, **ADC** (timing and analog signals)
+>
+>> ![](img/hardblocks/hardblock_Timer.png){width=inherit%} ![](img/hardblocks/hardblock_PWM.png){width=inherit%} ![](img/hardblocks/hardblock_ADC.png){width=inherit%}
+
+
 | Image | Hardware Blocks | About |
 | ---   | ------------    | ---   |
-| ![](img/hardblocks/hardblock_Pin.png)|**Pin**| digital I/O, UART, NeoPixel |
-| ![](img/hardblocks/hardblock_Timer.png) ![](img/hardblocks/hardblock_PWM.png) ![](img/hardblocks/hardblock_ADC.png)| **Timer**, **PWM**, **ADC**| timing and analog signals |
 | ![](img/hardblocks/hardblock_SPI.png) ![](img/hardblocks/hardblock_I2C.png) ![](img/hardblocks/hardblock_OneWire.png)|**SPI**, **I2C**, **One-Wire**|communication buses |
 | ![](img/hardblocks/hardblock_WatchDog.png) ![](img/hardblocks/hardblock_SDcard.png) ![](img/hardblocks/hardblock_RMT.png) ![](img/hardblocks/hardblock_Touch.png) ![](img/hardblocks/hardblock_DHT.png) ![](img/hardblocks/hardblock_HC.png)|**WatchDog**, **SD Card**, **RMT**, **Capacitive Touch**, **DHT**, **HC-SR04 Sonar**|sensors and utilities |
 
