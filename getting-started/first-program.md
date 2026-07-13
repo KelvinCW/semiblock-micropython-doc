@@ -15,13 +15,13 @@ A blink is just four ideas repeated forever:
 | --- | --- | --- |
 | `%1 = Pin(%2, %3)`     | Pin      | Creates a pin object (e.g. `led`) as `OUT`.    |
 
-> ![](img/block_pin.png){width=inherit}
+> ![](img/block_pin.png)
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
 | `%1.on()`              | Pin      | Drives the pin high — LED **on**.              |
 
-> ![](img/block_pin_on.png){width=inherit}
+> ![](img/block_pin_on.png){width=100%}
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
@@ -76,12 +76,21 @@ while True:
 
 Read it top to bottom:
 
-|  Image                         |  What it does   |
-|  ---                           |  ----------     |
-| ![](img/block_led_2.png)       | `Pin(2, Pin.OUT)` makes GPIO 2 an output and names it `led`. |
-| ![](img/block_led_onoff.png)   |`led.on()` / `led.off()` switch the LED. |
-| ![](img/block_sleep_05.png)    |`sleep(0.5)` pauses half a second so the blink is visible. |
-| ![](img/block_while_true.png)  |`while True:` keeps the cycle running forever. |
+### `Pin(2, Pin.OUT)` makes GPIO 2 an output and names it `led`.
+
+> ![](img/block_led_2.png) 
+
+### `led.on()` / `led.off()` switch the LED.
+
+> ![](img/block_led_onoff.png)
+
+### `sleep(0.5)` pauses half a second so the blink is visible.
+
+> ![](img/block_sleep_05.png)
+
+### `while True:` keeps the cycle running forever.
+
+>![](img/block_while_true.png)
 
 ## Reading a pin value (bonus block)
 
