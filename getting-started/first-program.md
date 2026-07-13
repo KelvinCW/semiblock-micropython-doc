@@ -15,7 +15,7 @@ A blink is just four ideas repeated forever:
 | --- | --- | --- |
 | `%1 = Pin(%2, %3)`     | Pin      | Creates a pin object (e.g. `led`) as `OUT`.    |
 
-> ![](img/block_pin.png)
+> ![](img/block_pin.png){width=100%}
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
