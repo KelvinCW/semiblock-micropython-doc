@@ -64,7 +64,7 @@ Every block shows a human-readable label. Hardware blocks often mirror the code 
 
 | Block | Code (Python) |
 | ---   | ---           |
-| ![](img/block_led_2.png)|`led = Pin(2, Pin.OUT)` |
+| ![](img/block_led_2.png)| `led = Pin(2, Pin.OUT)` |
 
 ![](img/blockLabel.png){width=100%}
 

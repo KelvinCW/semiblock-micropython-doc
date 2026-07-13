@@ -76,12 +76,21 @@ while True:
 
 Read it top to bottom:
 
-|  Image                         |  What it does   |
-|  ---                           |  ----------     |
-| ![](img/block_led_2.png)       | `Pin(2, Pin.OUT)` makes GPIO 2 an output and names it `led`. |
-| ![](img/block_led_onoff.png)   |`led.on()` / `led.off()` switch the LED. |
-| ![](img/block_sleep_05.png)    |`sleep(0.5)` pauses half a second so the blink is visible. |
-| ![](img/block_while_true.png)  |`while True:` keeps the cycle running forever. |
+### `Pin(2, Pin.OUT)` makes GPIO 2 an output and names it `led`.
+
+> ![](img/block_led_2.png) 
+
+### `led.on()` / `led.off()` switch the LED.
+
+> ![](img/block_led_onoff.png)
+
+### `sleep(0.5)` pauses half a second so the blink is visible.
+
+> ![](img/block_sleep_05.png)
+
+### `while True:` keeps the cycle running forever.
+
+>![](img/block_while_true.png)
 
 ## Reading a pin value (bonus block)
 
