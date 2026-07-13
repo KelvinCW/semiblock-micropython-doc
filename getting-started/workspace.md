@@ -13,6 +13,9 @@ The toolbox is the categorized menu of blocks. Clicking a category opens a
   and **Sensor & AI Blocks**.
 - Each category has a color so related blocks are easy to spot — for example the
   **Pin** category is a light blue.
+
+  > ![](img/hardblocks/hardblock_Pin.png){width=inherit}
+
 - Drag a block out of the flyout to add it; drag a block back over the toolbox to
   delete it.
 
@@ -32,6 +35,8 @@ Blocks have shaped connectors:
 
 - **Statement** blocks stack vertically (top-to-bottom flow).
 - **Value** blocks plug into the notches of other blocks (inputs).
+
+> 
 
 When two compatible connectors get close, they highlight and snap together.
 
