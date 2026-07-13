@@ -6,6 +6,8 @@ MicroPython directly, and SemiBlock drops it into your program unchanged.
 
 ## The `freeCode` block
 
+> ![](img/freeblock1.png){width=inherit}
+
 - **Label:** a single multi-line text box.
 - **Input:** `FIELDNAME` — any MicroPython text you like. It may span several
   lines.
@@ -18,11 +20,15 @@ print('hello')
 print('world')
 ```
 
+> ![](img/freeblock2.png){width=inherit}
+
 If you change the box to read `led.value(1)`, the generated code is simply:
 
 ```python
 led.value(1)
 ```
+
+> ![](img/freeblock3.png){width=inherit}
 
 ## When to use it
 
@@ -41,6 +47,8 @@ Combine a free code block with a [`print`](print-comment.md) block:
 name = "Ada"
 print(name)
 ```
+
+> ![](img/freeblock4.png){width=inherit}
 
 Here the first line came from a free code block and the second from a `print`
 block. Mixing both styles is perfectly normal.
