@@ -15,7 +15,7 @@ A blink is just four ideas repeated forever:
 | --- | --- | --- |
 | `%1 = Pin(%2, %3)`     | Pin      | Creates a pin object (e.g. `led`) as `OUT`.    |
 
-> ![](img/block_pin.png)
+> ![](img/block_pin.png){width=inherit}
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
@@ -27,19 +27,19 @@ A blink is just four ideas repeated forever:
 | --- | --- | --- |
 | `%1.off()`             | Pin      | Drives the pin low — LED **off**.              |
 
-> ![](img/block_pin_off.png)
+> ![](img/block_pin_off.png){width=inherit}
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
 | `while %1:`            | Language | Repeats the blocks inside while true.          |
 
-> ![](img/block_while_true.png)
+> ![](img/block_while_true.png){width=inherit}
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
 | `sleep(...)`           | Machine  | Pauses for a number of seconds.       
 
-> ![](img/block_sleep.png)
+> ![](img/block_sleep.png){width=inherit}
 
 > The on-board LED on many ESP32 boards is wired to **GPIO 2**. If yours differs, change the pin number accordingly.
 
