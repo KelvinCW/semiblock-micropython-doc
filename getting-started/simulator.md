@@ -48,6 +48,7 @@ when clicked
 repeat forever:
     move 10 steps
     turn right 15 degrees
+    wait 1 second
 ```
 
 The equivalent MicroPython-style pseudocode the hardware generator would produce
@@ -57,6 +58,7 @@ for a loop looks familiar:
 while True:
     move(10)
     turn_right(15)
+    time.sleep(1)
 ```
 
 The simulator interprets the motion blocks visually instead of sending them to a
