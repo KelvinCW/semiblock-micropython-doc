@@ -14,9 +14,17 @@ It complements the hardware path rather than replacing it.
 
 Three toolbox categories (above the **Python** separator) feed the simulator:
 
-- **Motion** — move, turn, glide, go to X/Y, point in a direction.
-- **Looks** — show, hide, switch costume, set size.
-- **Events** — react to things like *when clicked*.
+#### **Motion** (move, turn, glide, go to X/Y, point in a direction).
+
+> ![](img/hardblocks/hardblock_Motion.png){width=inherit}
+
+#### **Looks** (show, hide, switch costume, set size).
+
+> ![](img/hardblocks/hardblock_Looks.png){width=inherit}
+
+#### **Events** (react to things like *when clicked*).
+
+> ![](img/hardblocks/hardblock_Events.png){width=inherit}
 
 Drag these blocks together to make a sprite move and respond.
 
