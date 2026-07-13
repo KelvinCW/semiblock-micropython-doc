@@ -11,13 +11,35 @@ A blink is just four ideas repeated forever:
 
 ## The blocks you'll use
 
-|  Image                         | Block label            | Category | What it does                                   | 
-|  :----                         | ---------------------- | -------- | ---------------------------------------------- |
-| ![](img/block_pin.png)         | `%1 = Pin(%2, %3)`     | Pin      | Creates a pin object (e.g. `led`) as `OUT`.    |
-| ![](img/block_pin_on.png)      |    Pin                 | Drives the pin high — LED **on**.              |
-| ![](img/block_pin_off.png)     | `%1.off()`             | Pin      | Drives the pin low — LED **off**.              |
-| ![](img/block_while_true.png)  | `while %1:`            | Language | Repeats the blocks inside while true.          |
-| ![](img/block_sleep.png)       | `sleep(...)`           | Machine  | Pauses for a number of seconds.                |
+| Block label | Category | What it does | 
+| --- | --- | --- |
+| `%1 = Pin(%2, %3)`     | Pin      | Creates a pin object (e.g. `led`) as `OUT`.    |
+
+> ![](img/block_pin.png)
+
+| Block label | Category | What it does | 
+| --- | --- | --- |
+| `%1.on()`              | Pin      | Drives the pin high — LED **on**.              |
+
+> ![](img/block_pin_on.png)
+
+| Block label | Category | What it does | 
+| --- | --- | --- |
+| `%1.off()`             | Pin      | Drives the pin low — LED **off**.              |
+
+> ![](img/block_pin_off.png)
+
+| Block label | Category | What it does | 
+| --- | --- | --- |
+| `while %1:`            | Language | Repeats the blocks inside while true.          |
+
+> ![](img/block_while_true.png)
+
+| Block label | Category | What it does | 
+| --- | --- | --- |
+| `sleep(...)`           | Machine  | Pauses for a number of seconds.       
+
+> ![](img/block_sleep.png)
 
 > The on-board LED on many ESP32 boards is wired to **GPIO 2**. If yours differs, change the pin number accordingly.
 
