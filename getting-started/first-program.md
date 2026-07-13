@@ -15,13 +15,21 @@ A blink is just four ideas repeated forever:
 | --- | --- | --- |
 | `%1 = Pin(%2, %3)`     | Pin      | Creates a pin object (e.g. `led`) as `OUT`.    |
 
+<<<<<<< HEAD
 > ![](img/block_pin.png){width=inherit%}
+=======
+> ![](img/block_pin.png){width=inherit}
+>>>>>>> eefc9853e4cbe11b7467e0032ba36da233aaec18
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
 | `%1.on()`              | Pin      | Drives the pin high — LED **on**.              |
 
+<<<<<<< HEAD
 > ![](img/block_pin_on.png){width=inherit%}
+=======
+> ![](img/block_pin_on.png){width=inherit}
+>>>>>>> eefc9853e4cbe11b7467e0032ba36da233aaec18
 
 | Block label | Category | What it does | 
 | --- | --- | --- |
