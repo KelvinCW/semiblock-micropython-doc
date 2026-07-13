@@ -30,7 +30,7 @@ Below the toolbar the screen is split into two panes:
 - **Generated MicroPython (code pane)** — read-only, updates live as you build.
 - **Block workspace** — the canvas where you drag, snap, and arrange blocks.
 
-![](img/Instructions/Split_layout.png){width=100% style="border-radius: 50px;"}
+![](img/Instructions/Split_layout.png){width=100%}
 
 The toolbox of categories lives along the edge of the workspace.
 
