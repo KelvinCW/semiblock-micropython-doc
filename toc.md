@@ -24,7 +24,8 @@
 
 ## Part II — Python Language Blocks
 
-- [Python Language Blocks]()
+### Python Language Blocks
+
 - [Language Category](language/index.md)
   - [Free code blocks](language/free-code.md)
   - [`import` and `from … import`](language/imports.md)
