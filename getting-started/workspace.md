@@ -14,7 +14,7 @@ The toolbox is the categorized menu of blocks. Clicking a category opens a
 - Each category has a color so related blocks are easy to spot — for example the
   **Pin** category is a light blue.
 
-  > ![](img/hardblocks/hardblock_Pin.png){width=inherit}
+> ![](img/hardblocks/hardblock_Pin.png){width=inherit}
 
 - Drag a block out of the flyout to add it; drag a block back over the toolbox to
   delete it.
