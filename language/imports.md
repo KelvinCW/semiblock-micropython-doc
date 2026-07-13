@@ -6,6 +6,8 @@ common patterns.
 
 ## The `importCode` block
 
+> ![](img/import1.png){width=inherit}
+
 - **Label:** `import %1`
 - **Input:** `libraryName` (default `library1`).
 
@@ -14,6 +16,8 @@ Generates a plain import:
 ```python
 import math
 ```
+
+> ![](img/import2.png){width=inherit}
 
 ## The `importCode2` block (import with alias)
 
@@ -25,6 +29,8 @@ Generates an import with a shorter nickname:
 ```python
 import urequests as req
 ```
+
+> ![](img/import3.png){width=inherit}
 
 Now you can write `req.get(...)` instead of the full name.
 
@@ -39,6 +45,8 @@ Imports just one piece of a module:
 ```python
 from machine import Pin
 ```
+
+> ![](img/import4.png){width=inherit}
 
 ## Good to know
 
@@ -55,6 +63,8 @@ from machine import Pin
 
 led = Pin(2, Pin.OUT)
 ```
+
+> ![](img/import5.png){width=inherit}
 
 ## Next
 
