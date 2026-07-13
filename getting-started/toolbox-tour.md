@@ -39,25 +39,19 @@ After the **Hardware Blocks** separator are categories that talk to the chip's p
 
 #### **Pin** (digital I/O, UART, NeoPixel)
 
-> ![](img/hardblocks/hardblock_Pin.png){width=inherit border-radius: 50}
+> ![](img/hardblocks/hardblock_Pin.png){width=inherit}
 
 #### **Timer**, **PWM**, **ADC** (timing and analog signals)
 
-> ![](img/hardblocks/hardblock_Timer.png){width=inherit}
-> ![](img/hardblocks/hardblock_PWM.png){width=inherit}
-> ![](img/hardblocks/hardblock_ADC.png){width=inherit}
+> ![](img/hardblocks/hardblock_Timer.png){width=inherit} ![](img/hardblocks/hardblock_PWM.png){width=inherit} ![](img/hardblocks/hardblock_ADC.png){width=inherit}
 
 #### **SPI**, **I2C**, **One-Wire** (communication buses)
 
-> ![](img/hardblocks/hardblock_SPI.png){width=inherit} 
-> ![](img/hardblocks/hardblock_I2C.png){width=inherit} 
-> ![](img/hardblocks/hardblock_OneWire.png){width=inherit}
+> ![](img/hardblocks/hardblock_SPI.png){width=inherit} ![](img/hardblocks/hardblock_I2C.png){width=inherit} ![](img/hardblocks/hardblock_OneWire.png){width=inherit}
 
 #### **WatchDog**, **SD Card**, **RMT**, **Capacitive**, **DHT**, **HC-SR04 Sonar** (sensors and utilities)
 
-> ![](img/hardblocks/hardblock_SPI.png){width=inherit} 
-> ![](img/hardblocks/hardblock_I2C.png){width=inherit} 
-> ![](img/hardblocks/hardblock_OneWire.png){width=inherit}
+> ![](img/hardblocks/hardblock_SPI.png){width=inherit} ![](img/hardblocks/hardblock_I2C.png){width=inherit} ![](img/hardblocks/hardblock_OneWire.png){width=inherit}
 
 
 ### Sensor & AI Blocks
@@ -83,9 +77,9 @@ After the **Sensor & AI Blocks** separator:
 
 Every block shows a human-readable label. Hardware blocks often mirror the code they create. For example the Pin block reads `%1 = Pin(%2, %3)` and produces:
 
-| Block | Code (Python) |
-| ---   | ---           |
-| ![](img/block_led_2.png)| `led = Pin(2, Pin.OUT)` |
+#### **Code (Python)** (`led = Pin(2, Pin.OUT)`)
+
+> ![](img/block_led_2.png){width=inherit}
 
 ![](img/blockLabel.png){width=100%}
 
