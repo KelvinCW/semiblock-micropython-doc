@@ -99,6 +99,8 @@ Upload the blink program, confirm it runs, then change `sleep(0.5)` to
 `sleep(0.1)`, re-upload, and reset. The faster blink proves your edit reached the
 board.
 
+> ![](img/block_sleep_05.png){width=inherit}
+
 ## Next
 
 [Editor Walkthrough](editor-tour.md)
