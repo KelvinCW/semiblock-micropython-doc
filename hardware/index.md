@@ -42,25 +42,57 @@ the correct calls for you.
 
 ## Hardware categories
 
-- **[Pin](pin/index.md)** — digital I/O, UART serial, NeoPixel LEDs.
-- **[Timer](timer/index.md)** — periodic and one-shot background callbacks.
-- **[PWM](pwm/index.md)** — dim LEDs, drive motors, make tones.
-- **[ADC & DAC](adc/index.md)** — read analog voltages, output analog voltages.
-- **[SPI](spi/index.md)** — fast bus for displays and SD cards.
-- **[I²C](i2c/index.md)** — two-wire bus shared by many sensors.
-- **[One-Wire](onewire/index.md)** — single-pin bus for temperature probes.
-- **[RMT](rmt/index.md)** — precise pulse trains for IR remotes and LEDs.
-- **[Capacitive Touch](touch/index.md)** — turn a bare pin into a touch button.
-- **[RTC & WatchDog](rtc-wdt/index.md)** — keep time, auto-recover, deep sleep.
-- **[SD Card](sdcard/index.md)** — store and read files on removable storage.
+### **[Pin](pin/index.md)** — digital I/O, UART serial, NeoPixel LEDs.
+
+> ![](hardblocks/hardblock_Pin.png){width=inherit}
+
+### **[Timer](timer/index.md)** — periodic and one-shot background callbacks.
+
+> ![](hardblocks/hardblock_Timer.png){width=inherit}
+
+### **[PWM](pwm/index.md)** — dim LEDs, drive motors, make tones.
+
+> ![](hardblocks/hardblock_PWM.png){width=inherit}
+
+### **[ADC & DAC](adc/index.md)** — read analog voltages, output analog voltages.
+
+> ![](hardblocks/hardblock_ADC.png){width=inherit}
+
+### **[SPI](spi/index.md)** — fast bus for displays and SD cards.
+
+> ![](hardblocks/hardblock_SPI.png){width=inherit}
+
+### **[I²C](i2c/index.md)** — two-wire bus shared by many sensors.
+
+> ![](hardblocks/hardblock_I2C.png){width=inherit}
+
+### **[One-Wire](onewire/index.md)** — single-pin bus for temperature probes.
+
+> ![](hardblocks/hardblock_OneWire.png){width=inherit}
+
+### **[RMT](rmt/index.md)** — precise pulse trains for IR remotes and LEDs.
+
+> ![](hardblocks/hardblock_RMT.png){width=inherit}
+
+### **[Capacitive Touch](touch/index.md)** — turn a bare pin into a touch button.
+
+> ![](hardblocks/hardblock_Touch.png){width=inherit}
+
+### **[RTC & WatchDog](rtc-wdt/index.md)** — keep time, auto-recover, deep sleep.
+
+> ![](hardblocks/hardblock_WatchDog.png){width=inherit}
+
+### **[SD Card](sdcard/index.md)** — store and read files on removable storage.
+
+> ![](hardblocks/hardblock_SDcard.png){width=inherit}
 
 ## Before you wire anything
 
 Two short concept pages will save you from fried pins and confusing bugs:
 
-- **[Pin numbering & pinouts](pinout.md)** — what a GPIO number means and which
+### **[Pin numbering & pinouts](pinout.md)** — what a GPIO number means and which
   pins are safe to use.
-- **[Powering sensors safely](power.md)** — 3.3 V vs 5 V logic and level shifting.
+### **[Powering sensors safely](power.md)** — 3.3 V vs 5 V logic and level shifting.
 
 ## Next
 
