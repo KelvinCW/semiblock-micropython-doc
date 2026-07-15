@@ -5,6 +5,8 @@ it once, then call it many times. The `def` block creates one.
 
 ## The `def` block
 
+> ![](img/def1.png){width=inherit}
+
 - **Label:** `def %1(%2):`
 - **Inputs:**
   - `funcName` — the function's name (default `func1`).
@@ -18,6 +20,8 @@ def func1():
 	print("hello")
 ```
 
+> ![](img/def2.png){width=inherit}
+
 ## Adding parameters
 
 Type one or more parameter names into the `parameters` field, separated by
@@ -27,6 +31,8 @@ commas:
 def greet(name):
 	print(name)
 ```
+
+> ![](img/def3.png){width=inherit}
 
 Now calling `greet("Ada")` would print `Ada`.
 
@@ -43,6 +49,8 @@ def blink():
 
 blink()
 ```
+
+> ![](img/def4.png){width=inherit}
 
 > Tip: define your functions near the top of the workspace so they exist before
 > the code that calls them runs.
