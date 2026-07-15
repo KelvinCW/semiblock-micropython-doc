@@ -11,6 +11,8 @@ The `createDict` block makes a new, empty dictionary ready for you to fill.
 dict1 = {}
 ```
 
+> ![](img/create1.png){width=inherit}
+
 This creates an empty dictionary. Add entries to it with the blocks on the next
 page.
 
@@ -29,6 +31,8 @@ dict1 = {}
 dict1["name"] = "Ada"
 ```
 
+> ![](img/create2.png){width=inherit}
+
 ## Worked example
 
 ```python
@@ -37,6 +41,8 @@ settings["brightness"] = 80
 settings["mode"] = "auto"
 print(settings)
 ```
+
+> ![](img/create3.png){width=inherit}
 
 ## Next
 
