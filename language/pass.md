@@ -5,6 +5,8 @@ function, or condition that is syntactically complete but has no body yet.
 
 ## The `pass` block
 
+> ![](img/pass1.png){width=inherit}
+
 - **Label:** `pass`
 - **Inputs:** none.
 
@@ -24,6 +26,8 @@ def todo_later():
 	pass
 ```
 
+> ![](img/pass2.png){width=inherit}
+
 This defines a function that does nothing for now — you can replace `pass` with
 real blocks later.
 
@@ -37,6 +41,8 @@ if button_pressed:
 else:
 	print("waiting")
 ```
+
+> ![](img/pass3.png){width=inherit}
 
 The `if` branch is reserved with `pass`; the `else` branch already prints a
 message.
