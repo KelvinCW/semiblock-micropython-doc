@@ -1,5 +1,7 @@
 # `startswith`, `endswith`, `length`
 
+> ![](img/predicate1.png){width=inherit}
+
 These blocks answer questions about a string: does it begin or end with certain
 text, and how long is it? Each is a **value block**.
 
@@ -14,6 +16,8 @@ Text fields are inserted **verbatim** — type quotes around literal text.
 text.startswith(t)
 ```
 
+> ![](img/predicate2.png){width=inherit}
+
 ## The `stringEndsWith` block
 
 - **Label:** `%1.endswith(%2)` — inputs `value` (default `text`), `suffix`
@@ -23,6 +27,8 @@ text.startswith(t)
 text.endswith(t)
 ```
 
+> ![](img/predicate3.png){width=inherit}
+
 ## The `stringLength` block
 
 - **Label:** `len(%1)` — input `value` (default `text`). Counts the characters.
@@ -30,6 +36,8 @@ text.endswith(t)
 ```python
 len(text)
 ```
+
+> ![](img/predicate4.png){width=inherit}
 
 ## Worked example
 
@@ -41,6 +49,8 @@ if filename.endswith(".csv"):
 	print("It is a CSV file")
 print(len(filename))
 ```
+
+> ![](img/predicate5.png){width=inherit}
 
 `startswith` and `endswith` return `True` or `False`, which makes them perfect
 inputs for an [`if`](../language/if-else.md) block.
