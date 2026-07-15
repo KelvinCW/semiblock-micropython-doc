@@ -1,5 +1,7 @@
 # Language Category
 
+> ![](img/Language.png){width=inherit}
+
 The **Language** category holds the core building blocks of every MicroPython program: imports, loops, conditions, printing, variables, functions, and more. These are the same blocks you reach for no matter which board or sensor you use.
 
 Every block in this category shares the same pink colour (`#fb6f92`) so you can spot them quickly in the toolbox.
