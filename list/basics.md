@@ -1,5 +1,7 @@
 # Creating, appending, inserting, removing
 
+> ![](img/basic1.png){width=inherit}
+
 These blocks build a list and change what is inside it.
 
 ## The `createList` block
@@ -14,6 +16,9 @@ brackets:
 list1 = [20, 50, 30]
 ```
 
+> ![](img/basic2.png){width=inherit}
+
+
 Type the items separated by commas in the `list` field.
 
 ## The `appendList` block
@@ -25,6 +30,9 @@ Type the items separated by commas in the `list` field.
 list1.append(10)
 ```
 
+> ![](img/basic3.png){width=inherit}
+
+
 ## The `insertList` block
 
 - **Label:** `%1.insert(%2, %3)` — inputs `list_name` (default `list1`), `index`
@@ -33,6 +41,8 @@ list1.append(10)
 ```python
 list1.insert(0, 10)
 ```
+
+> ![](img/basic4.png){width=inherit}
 
 ## The `removeList` block
 
@@ -44,6 +54,8 @@ list1.insert(0, 10)
 list1.remove(10)
 ```
 
+> ![](img/basic5.png){width=inherit}
+
 ## Worked example
 
 ```python
@@ -53,6 +65,8 @@ list1.insert(0, 5)
 list1.remove(50)
 print(list1)
 ```
+
+> ![](img/basic6.png){width=inherit}
 
 ## Next
 

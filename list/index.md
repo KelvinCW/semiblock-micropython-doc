@@ -1,5 +1,7 @@
 # List
 
+> ![](img/List.png){width=inherit}
+
 A **list** stores several values in order, like `[20, 50, 30]`. You can add to a
 list, remove from it, sort it, and read items out by position. The List category
 has blocks for all of this.
@@ -20,6 +22,8 @@ scores.append(40)
 scores.sort()
 print(scores)
 ```
+
+> ![](img/list1.png){width=inherit}
 
 ## Next
 
