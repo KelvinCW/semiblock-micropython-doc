@@ -1,5 +1,7 @@
 # Random
 
+> ![](img/Random.png){width=inherit}
+
 The **Random** category produces unpredictable values — perfect for games, dice,
 random colours, or shuffling a deck. The blocks use MicroPython's `random`
 module.
@@ -20,6 +22,8 @@ import random
 dice = random.randint(1, 6)
 print(dice)
 ```
+
+> ![](img/random1.png){width=inherit}
 
 ## Next
 

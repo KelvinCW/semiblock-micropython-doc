@@ -1,5 +1,7 @@
 # `random`, `randint`, `randrange`, `uniform`
 
+> ![](img/number1.png){width=inherit}
+
 These blocks generate random numbers in different ways. Each is a **value
 block**, and each needs an [`import random`](../language/imports.md) block in
 your program.
@@ -12,6 +14,8 @@ your program.
 random.random()
 ```
 
+> ![](img/number2.png){width=inherit}
+
 ## The `randint` block
 
 - **Label:** `randint(%1, %2)` — inputs `a` (default `0`), `b` (default `10`).
@@ -20,6 +24,8 @@ random.random()
 ```python
 random.randint(0, 10)
 ```
+
+> ![](img/number3.png){width=inherit}
 
 ## The `randrange` block
 
@@ -31,6 +37,8 @@ random.randint(0, 10)
 random.randrange(0, 10, 1)
 ```
 
+> ![](img/number4.png){width=inherit}
+
 ## The `uniform` block
 
 - **Label:** `uniform(%1, %2)` — inputs `a` (default `0`), `b` (default `1`).
@@ -39,6 +47,8 @@ random.randrange(0, 10, 1)
 ```python
 random.uniform(0, 1)
 ```
+
+> ![](img/number5.png){width=inherit}
 
 ## Worked example
 
@@ -50,6 +60,8 @@ even = random.randrange(0, 100, 2)
 temp = random.uniform(20.0, 25.0)
 print(coin, even, temp)
 ```
+
+> ![](img/number6.png){width=inherit}
 
 ## Next
 
