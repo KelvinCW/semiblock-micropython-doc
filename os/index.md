@@ -1,5 +1,7 @@
 # Operating System (`os` module)
 
+> ![](img/OS.png){width=inherit}
+
 The **os** category talks to the device's file system and system functions:
 listing files, making folders, checking the current directory, and more. The
 blocks use MicroPython's `os` module.
@@ -7,6 +9,8 @@ blocks use MicroPython's `os` module.
 Add an [`import os`](../language/imports.md) block to your program so these
 blocks work. Path fields are inserted **verbatim**, so quote them (e.g.
 `"/data.txt"`).
+
+> ![](img/os1.png){width=inherit}
 
 ## What you will learn
 
@@ -22,6 +26,8 @@ import os
 
 os.listdir("/")
 ```
+
+> ![](img/os2.png){width=inherit}
 
 ## Next
 

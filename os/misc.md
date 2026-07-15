@@ -1,5 +1,7 @@
 # `sync`, `system`, `urandom`
 
+> ![](img/misc1.png){width=inherit}
+
 A few extra `os` blocks handle flushing data to storage, running system
 commands, and generating random bytes. Each needs an
 [`import os`](../language/imports.md) block.
@@ -13,6 +15,8 @@ commands, and generating random bytes. Each needs an
 os.sync()
 ```
 
+> ![](img/misc2.png){width=inherit}
+
 ## The `osSystem` block
 
 - **Label:** `os.system(%1)` — input `command` (default `ls`). Runs a system
@@ -22,11 +26,15 @@ os.sync()
 os.system(ls)
 ```
 
+> ![](img/misc3.png){width=inherit}
+
 With a quoted command:
 
 ```python
 os.system("ls")
 ```
+
+> ![](img/misc4.png){width=inherit}
 
 > Note: not every MicroPython build supports `os.system`. Test it on your board.
 
@@ -39,6 +47,8 @@ os.system("ls")
 os.urandom(16)
 ```
 
+> ![](img/misc5.png){width=inherit}
+
 ## Worked example
 
 ```python
@@ -48,6 +58,8 @@ with open("/data.txt", "w") as f:
 	f.write("hello")
 os.sync()
 ```
+
+> ![](img/misc6.png){width=inherit}
 
 Calling `os.sync()` after writing makes sure the data is safely stored.
 

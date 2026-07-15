@@ -1,5 +1,7 @@
 # Listing, removing, renaming files
 
+> ![](img/files1.png){width=inherit}
+
 These blocks manage individual files on the device. Each needs an
 [`import os`](../language/imports.md) block, and path fields are inserted
 **verbatim** — quote them.
@@ -13,11 +15,15 @@ These blocks manage individual files on the device. Each needs an
 os.listdir(/)
 ```
 
+> ![](img/files2.png){width=inherit}
+
 With a quoted path:
 
 ```python
 os.listdir("/")
 ```
+
+> ![](img/os2.png){width=inherit}
 
 ## The `osRemove` block
 
@@ -27,11 +33,15 @@ os.listdir("/")
 os.remove(/file.txt)
 ```
 
+> ![](img/files3.png){width=inherit}
+
 With a quoted path:
 
 ```python
 os.remove("/file.txt")
 ```
+
+> ![](img/files4.png){width=inherit}
 
 ## The `osRename` block
 
@@ -42,11 +52,15 @@ os.remove("/file.txt")
 os.rename(/old.txt, /new.txt)
 ```
 
+> ![](img/files5.png){width=inherit}
+
 With quoted paths:
 
 ```python
 os.rename("/old.txt", "/new.txt")
 ```
+
+> ![](img/files6.png){width=inherit}
 
 ## Worked example
 
@@ -56,6 +70,8 @@ import os
 print(os.listdir("/"))
 os.rename("/log.txt", "/log_old.txt")
 ```
+
+> ![](img/files7.png){width=inherit}
 
 ## Next
 

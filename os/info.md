@@ -1,5 +1,7 @@
 # `getcwd`, `chdir`, `stat`, `uname`
 
+> ![](img/info1.png){width=inherit}
+
 These blocks report or change where you are in the file system and give
 information about files and the device. Each needs an
 [`import os`](../language/imports.md) block.
@@ -12,6 +14,8 @@ information about files and the device. Each needs an
 os.getcwd()
 ```
 
+> ![](img/info2.png){width=inherit}
+
 ## The `osChdir` block
 
 - **Label:** `os.chdir(%1)` — input `path` (default `/new_folder`). Changes the
@@ -21,11 +25,15 @@ os.getcwd()
 os.chdir(/new_folder)
 ```
 
+> ![](img/info3.png){width=inherit}
+
 With a quoted path:
 
 ```python
 os.chdir("/new_folder")
 ```
+
+> ![](img/info4.png){width=inherit}
 
 ## The `osStat` block
 
@@ -36,11 +44,15 @@ os.chdir("/new_folder")
 os.stat(/file.txt)
 ```
 
+> ![](img/info5.png){width=inherit}
+
 With a quoted path:
 
 ```python
 os.stat("/file.txt")
 ```
+
+> ![](img/info6.png){width=inherit}
 
 ## The `osUname` block
 
@@ -51,6 +63,8 @@ os.stat("/file.txt")
 os.uname()
 ```
 
+> ![](img/info7.png){width=inherit}
+
 ## Worked example
 
 ```python
@@ -59,6 +73,8 @@ import os
 print(os.getcwd())
 print(os.uname())
 ```
+
+> ![](img/info8.png){width=inherit}
 
 ## Next
 

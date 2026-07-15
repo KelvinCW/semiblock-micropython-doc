@@ -1,5 +1,7 @@
 # Making and removing directories
 
+> ![](img/dirs1.png){width=inherit}
+
 These blocks create and delete folders. Each needs an
 [`import os`](../language/imports.md) block, and path fields are inserted
 **verbatim** — quote them.
@@ -13,11 +15,15 @@ These blocks create and delete folders. Each needs an
 os.mkdir(/new_folder)
 ```
 
+> ![](img/dirs2.png){width=inherit}
+
 With a quoted path:
 
 ```python
 os.mkdir("/new_folder")
 ```
+
+> ![](img/dirs3.png){width=inherit}
 
 ## The `osRmdir` block
 
@@ -28,11 +34,15 @@ os.mkdir("/new_folder")
 os.rmdir(/folder)
 ```
 
+> ![](img/dirs4.png){width=inherit}
+
 With a quoted path:
 
 ```python
 os.rmdir("/folder")
 ```
+
+> ![](img/dirs5.png){width=inherit}
 
 ## Worked example
 
@@ -43,6 +53,8 @@ os.mkdir("/logs")
 print(os.listdir("/"))
 os.rmdir("/logs")
 ```
+
+> ![](img/dirs6.png){width=inherit}
 
 > Tip: `os.rmdir` only works on empty folders. Remove the files inside first
 > with [`os.remove`](files.md).
