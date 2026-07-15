@@ -1,5 +1,7 @@
 # Indexing and slicing
 
+> ![](img/slicing1.png){width=inherit}
+
 **Indexing** reads a single item by its position; **slicing** copies a range of
 items into a new list. Positions start at `0`.
 
@@ -12,6 +14,8 @@ items into a new list. Positions start at `0`.
 item=list1[0]
 ```
 
+> ![](img/slicing2.png){width=inherit}
+
 ## The `getListSlice` block
 
 - **Label:** `%1 = %2[%3:%4]` — inputs `var_name` (default `slice`), `list_name`
@@ -22,6 +26,8 @@ item=list1[0]
 slice=list1[0:2]
 ```
 
+> ![](img/slicing3.png){width=inherit}
+
 ## The `getListSlice4` block
 
 - **Label:** `%1 = %2[:]` — inputs `var_name` (default `slice`), `list_name`
@@ -30,6 +36,8 @@ slice=list1[0:2]
 ```python
 slice=list1[:]
 ```
+
+> ![](img/slicing4.png){width=inherit}
 
 ## The `getListSlice2` and `getListSlice3` blocks
 
@@ -41,9 +49,13 @@ they emit a literal `null`:
 slice=list1[null:]
 ```
 
+> ![](img/slicing5.png){width=inherit}
+
 ```python
 slice=list1[:null]
 ```
+
+> ![](img/slicing6.png){width=inherit}
 
 > Recommendation: until this is fixed, use the full **`getListSlice`** block
 > (`[start:end]`) instead — give it the start and end you want.
@@ -57,6 +69,8 @@ slice=list1[0:2]
 copy_all=list1[:]
 print(item, slice, copy_all)
 ```
+
+> ![](img/slicing7.png){width=inherit}
 
 ## Next
 
