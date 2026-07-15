@@ -1,5 +1,7 @@
 # Read, write, append
 
+> ![](img/csv2.png){width=inherit}
+
 These three blocks move data between your program and a CSV file. File-name
 fields are inserted **verbatim**, so quote them (e.g. `"data.csv"`).
 
@@ -19,6 +21,8 @@ with open(file.csv, 'r') as file:
 		data.append(row)
 ```
 
+> ![](img/csv3.png){width=inherit}
+
 With a quoted file name (`"file.csv"`) each `row` is itself a list of column
 values.
 
@@ -37,6 +41,8 @@ with open(file.csv, 'w', newline='') as file:
 	writer.writerows([["col1", "col2"], ["val1", "val2"]])
 ```
 
+> ![](img/csv4.png){width=inherit}
+
 ## The `csvAppend` block
 
 - **Label:** add a single row to the end of a CSV.
@@ -49,6 +55,8 @@ with open(file.csv, 'a', newline='') as file:
 	writer = csv.writer(file)
 	writer.writerow(["val1", "val2"])
 ```
+
+> ![](img/csv5.png){width=inherit}
 
 ## Worked example
 
@@ -68,6 +76,8 @@ with open("log.csv", 'r') as file:
 		data.append(row)
 print(data)
 ```
+
+> ![](img/csv6.png){width=inherit}
 
 > Tip: `writerows` (plural) takes a list of rows; `writerow` takes one row. Use
 > append to add readings over time without erasing old data.

@@ -1,5 +1,7 @@
 # CSV files
 
+> ![](img/CSV.png){width=inherit}
+
 **CSV** (comma-separated values) is a simple spreadsheet-style text format: each
 line is a row, and commas separate the columns. The CSV category has blocks for
 reading a file into a list, writing rows out, and appending new rows.
@@ -20,6 +22,8 @@ with open("log.csv", "a", newline='') as file:
 	writer = csv.writer(file)
 	writer.writerow(["val1", "val2"])
 ```
+
+> ![](img/csv1.png){width=inherit}
 
 ## Next
 
