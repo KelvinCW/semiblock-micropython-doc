@@ -1,5 +1,7 @@
 # `sqrt`, `sin`, `cos`, `tan`, `log`, `exp`
 
+> ![](img/func1.png){width=inherit}
+
 These scientific functions come from MicroPython's `math` module. SemiBlock
 already adds `import math` at the top of your program, so they are ready to use.
 Each is a **value block** that returns a result.
@@ -12,6 +14,8 @@ Each is a **value block** that returns a result.
 math.sqrt(0)
 ```
 
+> ![](img/func2.png){width=inherit}
+
 ## The `mathSin` block
 
 - **Label:** `sin(%1)` — input `A`. Sine (angle in **radians**).
@@ -19,6 +23,8 @@ math.sqrt(0)
 ```python
 math.sin(0)
 ```
+
+> ![](img/func3.png){width=inherit}
 
 ## The `mathCos` block
 
@@ -28,6 +34,8 @@ math.sin(0)
 math.cos(0)
 ```
 
+> ![](img/func4.png){width=inherit}
+
 ## The `mathTan` block
 
 - **Label:** `tan(%1)` — input `A`. Tangent (radians).
@@ -35,6 +43,8 @@ math.cos(0)
 ```python
 math.tan(0)
 ```
+
+> ![](img/func5.png){width=inherit}
 
 ## The `mathLog` block
 
@@ -44,6 +54,8 @@ math.tan(0)
 math.log(0)
 ```
 
+> ![](img/func6.png){width=inherit}
+
 ## The `mathExp` block
 
 - **Label:** `exp(%1)` — input `A`. *e* raised to the power `A`.
@@ -51,6 +63,8 @@ math.log(0)
 ```python
 math.exp(0)
 ```
+
+> ![](img/func7.png){width=inherit}
 
 ## Worked example
 
