@@ -5,6 +5,8 @@ variable block names the box on the left and plugs a value into the right.
 
 ## The `variable` block
 
+> ![](img/var1.png){width=inherit}
+
 - **Label:** `%1 = %2`
 - **Inputs:**
   - `var_name` — the name of the variable (default `var1`).
@@ -17,6 +19,8 @@ named `var1`:
 ```python
 var1 = 100
 ```
+
+> ![](img/var2.png){width=inherit}
 
 ## Choosing the value
 
@@ -31,6 +35,8 @@ score = 0
 total = 5 + 3
 ```
 
+> ![](img/var3.png){width=inherit}
+
 ## Worked example
 
 Store a sensor reading, then print it:
@@ -39,6 +45,8 @@ Store a sensor reading, then print it:
 reading = 512
 print(reading)
 ```
+
+> ![](img/var4.png){width=inherit}
 
 The first line is a variable block (with a value block attached); the second is
 a [`print`](print-comment.md) block that shows what you stored.
