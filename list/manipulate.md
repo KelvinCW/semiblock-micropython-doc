@@ -1,5 +1,7 @@
 # `pop`, `sort`, `reverse`, `len`
 
+> ![](img/manipulate1.png){width=inherit}
+
 These blocks reorder a list, take items out, or count them.
 
 ## The `popList` block
@@ -12,6 +14,8 @@ These blocks reorder a list, take items out, or count them.
 list1.pop(-1)
 ```
 
+> ![](img/manipulate2.png){width=inherit}
+
 ## The `sortList` block
 
 - **Label:** `%1.sort()` — input `list_name` (default `list1`). Sorts the list in
@@ -20,6 +24,8 @@ list1.pop(-1)
 ```python
 list1.sort()
 ```
+
+> ![](img/manipulate3.png){width=inherit}
 
 ## The `reverseList` block
 
@@ -30,6 +36,8 @@ list1.sort()
 list1.reverse()
 ```
 
+> ![](img/manipulate4.png){width=inherit}
+
 ## The `lenList` block
 
 - **Label:** `%1 = len(%2)` — inputs `var_name` (default `length`), `list_name`
@@ -38,6 +46,8 @@ list1.reverse()
 ```python
 length=len(list1)
 ```
+
+> ![](img/manipulate5.png){width=inherit}
 
 ## Worked example
 
@@ -48,6 +58,8 @@ last = list1.pop(-1)
 length=len(list1)
 print(list1, last, length)
 ```
+
+> ![](img/manipulate6.png){width=inherit}
 
 ## Next
 
