@@ -1,5 +1,7 @@
 # `upper`, `lower`, `strip`, `replace`
 
+> ![](img/case1.png){width=inherit}
+
 These blocks change the look of a string: switch case, trim spaces, or swap text.
 Each is a **value block** that returns a new string.
 
@@ -14,6 +16,8 @@ literal text.
 text.upper()
 ```
 
+> ![](img/case2.png){width=inherit}
+
 ## The `stringLower` block
 
 - **Label:** `%1.lower()` — input `value` (default `TEXT`). Makes everything lowercase.
@@ -21,6 +25,8 @@ text.upper()
 ```python
 TEXT.lower()
 ```
+
+> ![](img/case3.png){width=inherit}
 
 ## The `stringStrip` block
 
@@ -31,6 +37,8 @@ TEXT.lower()
  text .strip()
 ```
 
+> ![](img/case4.png){width=inherit}
+
 ## The `stringReplace` block
 
 - **Label:** `%1.replace(%2, %3)` — inputs `value` (default `text`), `old`
@@ -39,6 +47,8 @@ TEXT.lower()
 ```python
 text.replace(t, T)
 ```
+
+> ![](img/case5.png){width=inherit}
 
 ## Worked example
 
@@ -50,6 +60,8 @@ clean = "  spaced  ".strip()
 fixed = "cat".replace("c", "b")
 print(shout, clean, fixed)
 ```
+
+> ![](img/case6.png){width=inherit}
 
 ## Next
 

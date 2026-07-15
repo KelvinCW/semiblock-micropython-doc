@@ -4,6 +4,8 @@ The `stringInit` block makes a text value you can store or print.
 
 ## The `stringInit` block
 
+> ![](img/create1.png){width=inherit}
+
 - **Label:** `"%1"`
 - **Input:** `value` (default `text`).
 
@@ -37,6 +39,8 @@ name = "Ada"
 message = "Hello, " + name
 print(message)
 ```
+
+> ![](img/create2.png){width=inherit}
 
 The first two lines use string blocks (with quotes typed in); the `+` joins two
 strings together.

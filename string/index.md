@@ -1,5 +1,7 @@
 # String
 
+> ![](img/String.png){width=inherit}
+
 A **string** is a piece of text such as `"hello"` or `"sensor 3"`. The String
 category has blocks for creating text and for transforming and inspecting it.
 
