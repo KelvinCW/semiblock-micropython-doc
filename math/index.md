@@ -1,5 +1,7 @@
 # Math
 
+> ![](img/Math.png){width=inherit}
+
 The **Math** category gives you number blocks: arithmetic, scientific functions,
 rounding, constants, and a few handy extras. Most of them are **value blocks** —
 they produce a result you plug into a variable, a `print`, or another math block.
