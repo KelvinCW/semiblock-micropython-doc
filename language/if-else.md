@@ -5,6 +5,8 @@ different code depending on whether a condition is true.
 
 ## The `ifLoop` block
 
+> ![](img/if1.png){width=inherit}
+
 - **Label:** `if %1:`
 - **Input:** `conditions` — the test (default `1==1`).
 - **Body:** runs only when the test is true.
@@ -13,6 +15,8 @@ different code depending on whether a condition is true.
 if 1==1:
 	print("yes")
 ```
+
+> ![](img/if2.png){width=inherit}
 
 ## The `elseIfLoop` block
 
@@ -25,6 +29,8 @@ elif 1==1:
 	print("maybe")
 ```
 
+> ![](img/if3.png){width=inherit}
+
 ## The `elseLoop` block
 
 - **Label:** `else:`
@@ -34,6 +40,8 @@ elif 1==1:
 else:
 	print("no")
 ```
+
+> ![](img/if4.png){width=inherit}
 
 ## Stacking them together
 
@@ -48,6 +56,8 @@ elif temp > 20:
 else:
 	print("cool")
 ```
+
+> ![](img/if5.png){width=inherit}
 
 The board checks each test from top to bottom and runs the **first** matching
 block, then skips the rest.
