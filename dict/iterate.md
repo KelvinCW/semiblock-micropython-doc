@@ -1,5 +1,7 @@
 # `keys`, `values`, `items`
 
+> ![](img/iterate1.png){width=inherit}
+
 These blocks let you look at everything in a dictionary at once — all the keys,
 all the values, or both together. Each is a **statement block** that stores the
 result in a variable.
@@ -13,6 +15,8 @@ result in a variable.
 keys = dict1.keys()
 ```
 
+> ![](img/iterate2.png){width=inherit}
+
 ## The `dictValues` block
 
 - **Label:** `%1 = %2.values()` — inputs `var_name` (default `values`),
@@ -22,6 +26,8 @@ keys = dict1.keys()
 values = dict1.values()
 ```
 
+> ![](img/iterate3.png){width=inherit}
+
 ## The `dictItems` block
 
 - **Label:** `%1 = %2.items()` — inputs `var_name` (default `items`), `dict_name`
@@ -30,6 +36,8 @@ values = dict1.values()
 ```python
 items = dict1.items()
 ```
+
+> ![](img/iterate4.png){width=inherit}
 
 ## Worked example
 
@@ -43,6 +51,8 @@ items = dict1.items()
 for pair in items:
 	print(pair)
 ```
+
+> ![](img/iterate5.png){width=inherit}
 
 ## Next
 
