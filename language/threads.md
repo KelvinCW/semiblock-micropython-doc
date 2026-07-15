@@ -6,6 +6,8 @@ sensor. SemiBlock uses MicroPython's built-in `_thread` module.
 
 ## The `startThread` block
 
+> ![](img/threads1.png){width=inherit}
+
 - **Label:** `%1 = _thread.start_new_thread(%2, ())`
 - **Inputs:**
   - `varName` — a name to hold the thread (default `thread1`).
@@ -28,6 +30,7 @@ When your program uses a thread, SemiBlock automatically adds this near the top:
 ```python
 import _thread
 ```
+> ![](img/threads2.png){width=inherit} > ![](img/threads3.png){width=inherit}
 
 You do not need a separate import block for it.
 
@@ -47,6 +50,8 @@ def loop_forever():
 
 thread1 = _thread.start_new_thread(loop_forever, ())
 ```
+
+> ![](img/threads4.png){width=inherit}
 
 The LED now blinks in the background, leaving your main program free to do other
 work.
