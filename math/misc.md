@@ -1,5 +1,7 @@
 # `random`, `randint`, `divmod`, `hex`, `ord`
 
+> ![](img/misc1.png){width=inherit}
+
 A handful of useful odds and ends live in the Math category. Each is a **value
 block**.
 
@@ -15,6 +17,8 @@ built in.
 random.random()
 ```
 
+> ![](img/misc2.png){width=inherit}
+
 ## The `mathRandomInt` block
 
 - **Label:** `randomInt(%1, %2)` — inputs `A` (default `0`), `B` (default `10`).
@@ -23,6 +27,8 @@ random.random()
 ```python
 random.randint(0, 10)
 ```
+
+> ![](img/misc3.png){width=inherit}
 
 ## The `divmod` block
 
@@ -33,6 +39,8 @@ random.randint(0, 10)
 divmod(10, 3)
 ```
 
+> ![](img/misc4.png){width=inherit}
+
 ## The `hex` block
 
 - **Label:** `hex(%1)` — input `value` (default `255`). Hexadecimal text of a number.
@@ -40,6 +48,8 @@ divmod(10, 3)
 ```python
 hex(255)
 ```
+
+> ![](img/misc5.png){width=inherit}
 
 ## The `ord` block
 
@@ -51,6 +61,8 @@ The field is inserted verbatim, so quote the character to pass a letter:
 ord("A")
 ```
 
+> ![](img/misc6.png){width=inherit}
+
 This returns `65`.
 
 ## Worked example
@@ -61,6 +73,8 @@ import random
 roll = random.randint(1, 6)
 print(roll)
 ```
+
+> ![](img/misc7.png){width=inherit}
 
 ## Next
 
