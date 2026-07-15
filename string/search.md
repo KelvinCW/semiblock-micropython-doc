@@ -1,5 +1,7 @@
 # `find`, `split`, `join`
 
+> ![](img/search1.png){width=inherit}
+
 These blocks search inside text or convert between strings and lists. Each is a
 **value block**.
 
@@ -14,6 +16,8 @@ As always, text fields are inserted **verbatim** — type quotes around literal 
 text.find(t)
 ```
 
+> ![](img/search2.png){width=inherit}
+
 ## The `stringSplit` block
 
 - **Label:** `%1.split(%2)` — inputs `value` (default `a,b,c`), `delimiter`
@@ -23,11 +27,15 @@ text.find(t)
 a,b,c.split(,)
 ```
 
+> ![](img/search3.png){width=inherit}
+
 With quotes typed in, this becomes the more useful:
 
 ```python
 "a,b,c".split(",")
 ```
+
+> ![](img/search4.png){width=inherit}
 
 which produces `['a', 'b', 'c']`.
 
@@ -40,11 +48,15 @@ which produces `['a', 'b', 'c']`.
 ,.join(['a', 'b', 'c'])
 ```
 
+> ![](img/search5.png){width=inherit}
+
 With a quoted delimiter:
 
 ```python
 ",".join(['a', 'b', 'c'])
 ```
+
+> ![](img/search6.png){width=inherit}
 
 which produces `"a,b,c"`.
 
@@ -56,6 +68,8 @@ print(parts)
 joined = "/".join(parts)
 print(joined)
 ```
+
+> ![](img/search7.png){width=inherit}
 
 ## Next
 
