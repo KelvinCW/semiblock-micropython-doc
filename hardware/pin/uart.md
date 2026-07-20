@@ -49,7 +49,6 @@ var1.read(8)
 
 > ![](img/read.png){width=inherit}
 
-
 ## `uartWrite` — write text
 
 Sends a string out of the TX pin. The text you type is wrapped in quotes

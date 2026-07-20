@@ -25,6 +25,8 @@ Creates a one-pixel `NeoPixel` object on an output pin.
 pixel = neopixel.NeoPixel(Pin(8, Pin.OUT), 1)
 ```
 
+> ![](img/pixel.png){width=inherit}
+
 The trailing `1` is the number of LEDs on the strip.
 
 ## `neoPixelWrite` — set a colour
@@ -45,6 +47,9 @@ Sets the colour of the first LED and pushes it out to the strip. Colours are
 pixel[0] = (0xff, 0xff, 0xff)
 pixel.write()
 ```
+
+> ![](img/pixel_write.png){width=inherit}
+
 
 `(0xff, 0xff, 0xff)` is full white. `(0xff, 0, 0)` is red; `(0, 0xff, 0)` green.
 Nothing changes on the LED until `.write()` runs — that is the second line.
