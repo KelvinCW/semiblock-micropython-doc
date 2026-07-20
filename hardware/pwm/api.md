@@ -18,6 +18,8 @@ Creates a `PWM` object on a GPIO pin.
 pwm1 = PWM(Pin(15))
 ```
 
+> ![](img/pin.png){width=inherit}
+
 ## `pwmSetFreq` — set the frequency
 
 Sets how many on/off cycles happen per second (Hz). For LEDs and motors,
@@ -33,6 +35,8 @@ Sets how many on/off cycles happen per second (Hz). For LEDs and motors,
 ```python
 pwm1.freq(1000)
 ```
+
+> ![](img/freq.png){width=inherit}
 
 ## `pwmSetDuty` — set the duty cycle
 
@@ -50,6 +54,8 @@ and `512` is roughly half power.
 pwm1.duty(512)
 ```
 
+> ![](img/duty.png){width=inherit}
+
 ## `pwmDeinit` — release the PWM
 
 Turns the PWM off and frees the channel so the pin can be used for something
@@ -64,6 +70,8 @@ else.
 ```python
 pwm1.deinit()
 ```
+
+> ![](img/deinit.png){width=inherit}
 
 ## Wiring notes
 
