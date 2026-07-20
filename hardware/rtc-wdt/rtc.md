@@ -31,6 +31,8 @@ Creates an `RTC` object.
 rtc = RTC()
 ```
 
+> ![](img/wd2.png){width=inherit}
+
 ## `rtcSetTime` — set the date and time
 
 Sets the full date/time tuple.
@@ -48,6 +50,8 @@ Sets the full date/time tuple.
 rtc.datetime((2025, 1, 1, 0, 0, 0, 0, 0))
 ```
 
+> ![](img/wd3.png){width=inherit}
+
 ## `rtcGetTime` — read the whole tuple
 
 Reads the full date/time tuple at once.
@@ -63,6 +67,8 @@ Reads the full date/time tuple at once.
 current_time = rtc.datetime()
 ```
 
+> ![](img/wd4.png){width=inherit}
+
 ## Getting individual fields
 
 Each of these is a **value block** — drop it where a number is expected. They
@@ -71,11 +77,38 @@ index into the tuple returned by `rtc.datetime()`.
 | Block | Generated code | Returns |
 |-------|----------------|---------|
 | `rtcGetYear`   | `rtc.datetime()[0]` | year |
+
+> ![](img/wd5.png){width=inherit}
+
+| Block | Generated code | Returns |
+|-------|----------------|---------|
 | `rtcGetMonth`  | `rtc.datetime()[1]` | month |
+
+> ![](img/wd6.png){width=inherit}
+
+| Block | Generated code | Returns |
+|-------|----------------|---------|
 | `rtcGetDay`    | `rtc.datetime()[2]` | day |
+
+> ![](img/wd7.png){width=inherit}
+
+| Block | Generated code | Returns |
+|-------|----------------|---------|
 | `rtcGetHour`   | `rtc.datetime()[4]` | hour |
+
+> ![](img/wd8.png){width=inherit}
+
+| Block | Generated code | Returns |
+|-------|----------------|---------|
 | `rtcGetMinute` | `rtc.datetime()[5]` | minute |
+
+> ![](img/wd9.png){width=inherit}
+
+| Block | Generated code | Returns |
+|-------|----------------|---------|
 | `rtcGetSecond` | `rtc.datetime()[6]` | second |
+
+> ![](img/wd10.png){width=inherit}
 
 ```python
 print(rtc.datetime()[0], rtc.datetime()[1], rtc.datetime()[2])

@@ -22,6 +22,8 @@ Puts the board to sleep for a number of milliseconds.
 machine.deepsleep(10000)
 ```
 
+> ![](img/wd14.png){width=inherit}
+
 ## Typical pattern
 
 ```python
@@ -30,6 +32,8 @@ value = adc1.read()
 print(value)
 machine.deepsleep(10000)
 ```
+
+> ![](img/wd15.png){width=inherit}
 
 Because the board **restarts** after waking, any code that should run every
 cycle must be near the top of your script — execution does not resume where it

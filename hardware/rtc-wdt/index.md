@@ -1,5 +1,7 @@
 # RTC, Watchdog & Deep Sleep
 
+> ![](img/hardblock_WatchDog.png){width=inherit}
+
 This category groups three time- and power-related features of the ESP32:
 
 - **RTC (Real-Time Clock)** — keeps track of the date and time.
@@ -25,6 +27,8 @@ rtc = RTC()
 rtc.datetime((2025, 1, 1, 0, 0, 0, 0, 0))
 current_time = rtc.datetime()
 ```
+
+> ![](img/wd1.png){width=inherit}
 
 ## Next
 

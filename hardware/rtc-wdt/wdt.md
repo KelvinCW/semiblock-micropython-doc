@@ -27,6 +27,8 @@ before the timeout elapses.
 wdt = WDT(timeout=5000)
 ```
 
+> ![](img/wd11.png){width=inherit}
+
 ## `wdtFeed` — keep the board alive
 
 Resets the watchdog's countdown. Call this often inside your main loop.
@@ -41,6 +43,8 @@ Resets the watchdog's countdown. Call this often inside your main loop.
 wdt.feed()
 ```
 
+> ![](img/wd12.png){width=inherit}
+
 ## Typical pattern
 
 ```python
@@ -49,6 +53,8 @@ while True:
 	do_work()
 	wdt.feed()   # must run at least every 5 seconds
 ```
+
+> ![](img/wd13.png){width=inherit}
 
 ## Notes
 
