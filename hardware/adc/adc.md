@@ -19,6 +19,8 @@ Creates an `ADC` object on a GPIO pin.
 adc1 = ADC(Pin(32))
 ```
 
+> ![](img/adc1.png){width=inherit}
+
 ## `adcRead` — read the value
 
 Reads the ADC and stores the result in a variable.
@@ -34,6 +36,8 @@ Reads the ADC and stores the result in a variable.
 value = adc1.read()
 ```
 
+> ![](img/adc2.png){width=inherit}
+
 ## Reading in a loop
 
 ```python
@@ -43,6 +47,8 @@ while True:
 	print(value)
 	sleep_ms(200)
 ```
+
+> ![](img/adc6.png){width=inherit}
 
 ## Wiring notes
 

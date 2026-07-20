@@ -26,6 +26,8 @@ Creates a `DAC` object on a GPIO pin.
 dac1 = DAC(Pin(25))
 ```
 
+> ![](img/adc3.png){width=inherit}
+
 ## `dacWrite` — output a voltage
 
 Writes an 8-bit value (`0`–`255`) to the DAC, producing a proportional voltage.
@@ -40,6 +42,8 @@ Writes an 8-bit value (`0`–`255`) to the DAC, producing a proportional voltage
 ```python
 dac1.write(128)
 ```
+
+> ![](img/adc4.png){width=inherit}
 
 `128` produces roughly half of 3.3 V (about 1.65 V).
 
