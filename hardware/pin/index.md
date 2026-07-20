@@ -9,8 +9,9 @@ related helpers (`UART` for serial, `neopixel` for addressable LEDs).
 
 ## What's in this category
 
-- **[Digital IN / OUT](digital-io.md)** — create a pin as an input or output.
-  - `pin` — choose direction `OUT` or `IN`.
+### **[Digital IN / OUT](digital-io.md)** — create a pin as an input or output.
+
+> `pin` — choose direction `OUT` or `IN`.
 
 > ![](img/out_in.png){width=inherit}
 
