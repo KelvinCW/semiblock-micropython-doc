@@ -1,5 +1,7 @@
 # Display Overview
 
+> ![](img/hardblock_Display.png){width=inherit}
+
 SemiBlock MicroPython can drive two very different kinds of screens. Both live in
 the toolbox, but they use different firmware and different drawing styles.
 
