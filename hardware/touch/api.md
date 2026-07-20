@@ -17,6 +17,8 @@ Creates a `TouchPad` object on a touch-capable pin.
 touch1 = TouchPad(Pin(4))
 ```
 
+> ![](img/touch1.png){width=inherit}
+
 ## `touchRead` — read the value
 
 Reads the current capacitance value. The number is large when untouched and
@@ -33,6 +35,8 @@ Reads the current capacitance value. The number is large when untouched and
 value = touch1.read()
 ```
 
+> ![](img/touch2.png){width=inherit}
+
 ## Using it as a button
 
 ```python
@@ -43,6 +47,8 @@ while True:
 		print("Touched!")
 	sleep_ms(100)
 ```
+
+> ![](img/touch4.png){width=inherit}
 
 ## Wiring notes
 
