@@ -20,6 +20,8 @@ Creates an `I2C` object on a pair of clock/data pins.
 i2c1 = I2C(0, scl=Pin(22), sda=Pin(21), freq=400000)
 ```
 
+> ![](img/i2c1.png){width=inherit}
+
 ## `i2cScan` — find devices
 
 Scans the bus and returns a list of the 7-bit addresses that respond.
@@ -34,6 +36,8 @@ Scans the bus and returns a list of the 7-bit addresses that respond.
 ```python
 devices = i2c1.scan()
 ```
+
+> ![](img/i2c2.png){width=inherit}
 
 ## `i2cRead` — read from a device
 
@@ -52,6 +56,8 @@ Reads a number of bytes from a device at a given address.
 data = i2c1.readfrom(0x3C, 10)
 ```
 
+> ![](img/i2c3.png){width=inherit}
+
 ## `i2cWrite` — write to a device
 
 Writes a `bytes` object to a device at a given address.
@@ -67,6 +73,8 @@ Writes a `bytes` object to a device at a given address.
 ```python
 i2c1.writeto(0x3C, b"\x01\x02\x03")
 ```
+
+> ![](img/i2c4.png){width=inherit}
 
 ## Wiring notes
 
