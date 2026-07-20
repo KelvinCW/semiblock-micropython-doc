@@ -18,6 +18,9 @@ Creates a `OneWire` object on a single GPIO pin.
 ow = OneWire(Pin(4))
 ```
 
+> ![](img/ow1.png){width=inherit}
+
+
 ## `oneWireScan` — find devices
 
 Scans the bus and returns a list of device IDs (each a `bytearray`).
@@ -32,6 +35,8 @@ Scans the bus and returns a list of device IDs (each a `bytearray`).
 ```python
 devices = ow.scan()
 ```
+
+> ![](img/ow2.png){width=inherit}
 
 ## `oneWireRead` — read a byte
 
@@ -48,6 +53,8 @@ Reads a single byte from the bus.
 data = ow.readbyte()
 ```
 
+> ![](img/ow3.png){width=inherit}
+
 ## `oneWireWrite` — write a byte
 
 Writes a single byte to the bus.
@@ -62,6 +69,8 @@ Writes a single byte to the bus.
 ```python
 ow.writebyte(0xFF)
 ```
+
+> ![](img/ow4.png){width=inherit}
 
 ## Wiring notes
 
