@@ -1,4 +1,4 @@
-# Worked example: fade an LED
+# [Wait Until Bugs Fixed] Worked example: fade an LED
 
 This example smoothly fades an LED brighter and brighter by sweeping the PWM
 **duty cycle** from `0` up to `1023` inside a loop. It combines blocks from the
