@@ -18,7 +18,7 @@ Drives an output pin to its HIGH level (3.3 V on the ESP32).
 p0.on()
 ```
 
-> ![](img/on.png){width=inherit}
+> ![](img/pin_on.png){width=inherit}
 
 Use this to light an LED, energise a relay, or send a logic HIGH.
 
@@ -36,7 +36,7 @@ Drives an output pin to its LOW level (0 V / GND).
 p0.off()
 ```
 
-> ![](img/off.png){width=inherit}
+> ![](img/pin_off.png){width=inherit}
 
 ## `pinValue` — read a pin
 
