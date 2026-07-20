@@ -11,11 +11,26 @@ related helpers (`UART` for serial, `neopixel` for addressable LEDs).
 
 - **[Digital IN / OUT](digital-io.md)** — create a pin as an input or output.
   - `pin` — choose direction `OUT` or `IN`.
+
+> ![](img/out_in.png){width=inherit}
+
   - `pin2` — input pin with an internal `PULL_UP` / `PULL_DOWN` resistor.
+  
+> ![](img/pull.png){width=inherit}
+> 
 - **[On / off / read](on-off.md)** — drive a pin and read its state.
   - `on` — set the pin HIGH.
+
+> ![](img/on.png){width=inherit}
+
   - `off` — set the pin LOW.
+
+> ![](img/off.png){width=inherit}
+
   - `pinValue` — read the current value of a pin.
+
+> ![](img/value.png){width=inherit}
+
 - **[UART serial](uart.md)** — send and receive bytes over a serial port.
   - `uartInit` — open a UART with baud rate and TX/RX pins.
   - `uartRead` — read a number of bytes.
