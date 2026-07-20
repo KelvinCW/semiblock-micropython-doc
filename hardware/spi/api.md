@@ -97,7 +97,7 @@ Reads bytes from the bus into an existing `bytearray`.
 buffer = spi1.readinto(bytearray(10))
 ```
 
-> ![](img/spi7.png){width=inherit}
+
 
 ## Wiring notes
 
