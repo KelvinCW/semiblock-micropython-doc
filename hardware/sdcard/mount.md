@@ -28,6 +28,9 @@ Creates an `SDCard` object on the SPI slot and pins.
 sd = SDCard(slot=1, sck=Pin(18), mosi=Pin(23), miso=Pin(19), cs=Pin(5))
 ```
 
+> ![](img/sd2.png){width=inherit}
+
+
 ## `sdCardMount` — attach to a folder
 
 Mounts the card so its contents appear under a folder, usually `/sd`.
@@ -43,6 +46,9 @@ Mounts the card so its contents appear under a folder, usually `/sd`.
 os.mount(sd, "/sd")
 ```
 
+> ![](img/sd3.png){width=inherit}
+
+
 ## `sdCardUnmount` — detach safely
 
 Unmounts the card. Always do this before removing it to avoid corrupting data.
@@ -56,6 +62,9 @@ Unmounts the card. Always do this before removing it to avoid corrupting data.
 ```python
 os.umount("/sd")
 ```
+
+> ![](img/sd4.png){width=inherit}
+
 
 ## Wiring notes
 
