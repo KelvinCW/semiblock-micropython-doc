@@ -1,5 +1,7 @@
 # PWM
 
+> ![](img/hardblock_PWM.png){width=inherit}
+
 **PWM** (Pulse-Width Modulation) switches a pin on and off very quickly. By
 changing how long the pin stays on during each cycle (the **duty cycle**) you
 control the *average* power delivered. This lets a digital pin dim an LED, set
@@ -31,6 +33,8 @@ pwm1 = PWM(Pin(15))
 pwm1.freq(1000)
 pwm1.duty(512)
 ```
+
+> ![](img/pwm1.png){width=inherit}
 
 On the ESP32 the duty value ranges from `0` (always off) to `1023` (always on).
 
