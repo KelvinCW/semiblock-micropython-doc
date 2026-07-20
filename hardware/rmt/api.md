@@ -19,6 +19,8 @@ Creates an `RMT` object on a channel and pin.
 rmt1 = RMT(0, pin=Pin(18), clock_div=80)
 ```
 
+> ![](img/rmt1.png){width=inherit}
+
 ## `rmtWrite` — send pulses
 
 Sends a list of pulse durations. The numbers alternate **on, off, on, off…**,
@@ -36,6 +38,8 @@ each measured in ticks (1 µs each with `clock_div=80`).
 rmt1.write_pulses([10, 20, 30, 40], start=True)
 ```
 
+> ![](img/rmt2.png){width=inherit}
+
 ## `rmtDeinit` — release the channel
 
 Frees the RMT channel.
@@ -49,6 +53,8 @@ Frees the RMT channel.
 ```python
 rmt1.deinit()
 ```
+
+> ![](img/rmt3.png){width=inherit}
 
 ## Wiring notes
 
