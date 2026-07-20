@@ -29,6 +29,8 @@ Creates a `UART` object on one of the ESP32's hardware UARTs.
 var1 = UART(0, baudrate=9600, tx=16, rx=17)
 ```
 
+> ![](img/UART.png){width=inherit}
+
 ## `uartRead` — read bytes
 
 Reads up to a given number of bytes from the port. The result is a `bytes`
@@ -45,6 +47,9 @@ object (or `None` if nothing has arrived yet).
 var1.read(8)
 ```
 
+> ![](img/read.png){width=inherit}
+
+
 ## `uartWrite` — write text
 
 Sends a string out of the TX pin. The text you type is wrapped in quotes
@@ -60,6 +65,8 @@ automatically.
 ```python
 var1.write("hello")
 ```
+
+> ![](img/write.png){width=inherit}
 
 ## Wiring notes
 
