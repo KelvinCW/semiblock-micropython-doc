@@ -1,5 +1,7 @@
 # SPI
 
+> ![](img/hardblock_SPI.png){width=inherit}
+
 **SPI** (Serial Peripheral Interface) is a fast, four-wire bus used by displays,
 SD cards, and many high-speed sensors. One device (your ESP32) is the
 **controller**; it drives a clock and exchanges data with one or more
@@ -34,6 +36,8 @@ from machine import SPI
 spi1 = SPI(1, baudrate=1000000, polarity=0, phase=0, sck=Pin(18), mosi=Pin(23), miso=Pin(19))
 data = spi1.read(10)
 ```
+
+> ![](img/spi1.png){width=inherit}
 
 ## Next
 

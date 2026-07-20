@@ -23,6 +23,8 @@ Creates an `SPI` object with an ID, speed, clock mode, and pins.
 spi1 = SPI(1, baudrate=1000000, polarity=0, phase=0, sck=Pin(18), mosi=Pin(23), miso=Pin(19))
 ```
 
+> ![](img/spi2.png){width=inherit}
+
 ## `spiBusInit` — low-level SPI bus
 
 Creates a `machine.SPI.Bus`, used by some display drivers that manage SPI
@@ -42,6 +44,8 @@ themselves.
 spi_bus = machine.SPI.Bus(host=1, mosi=1, miso=2, sck=5)
 ```
 
+> ![](img/spi4.png){width=inherit}
+
 ## `spiRead` — read bytes
 
 Reads a fixed number of bytes from the bus.
@@ -58,6 +62,8 @@ Reads a fixed number of bytes from the bus.
 data = spi1.read(10)
 ```
 
+> ![](img/spi5.png){width=inherit}
+
 ## `spiWrite` — write bytes
 
 Sends a `bytes` object out over MOSI.
@@ -72,6 +78,8 @@ Sends a `bytes` object out over MOSI.
 ```python
 spi1.write(b"\x01\x02\x03")
 ```
+
+> ![](img/spi6.png){width=inherit}
 
 ## `spiReadWrite` — read into a buffer
 
@@ -88,6 +96,8 @@ Reads bytes from the bus into an existing `bytearray`.
 ```python
 buffer = spi1.readinto(bytearray(10))
 ```
+
+> ![](img/spi7.png){width=inherit}
 
 ## Wiring notes
 
