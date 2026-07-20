@@ -23,11 +23,15 @@ With `var_name = p0`, `pinNo = 2`, `pinDirection = OUT`:
 p0 = Pin(2, Pin.OUT)
 ```
 
+> ![](img/pin2_out.png){width=inherit}
+
 Switching the dropdown to `IN`:
 
 ```python
 p0 = Pin(2, Pin.IN)
 ```
+
+> ![](img/pin2_in.png){width=inherit}
 
 Use `OUT` to control LEDs, relays, or motor drivers. Use `IN` to read a button
 or a digital sensor output.
@@ -52,6 +56,8 @@ With `var_name = p0`, `pinNo = 2`, `pinType = PULL_UP`:
 ```python
 p0 = Pin(2, Pin.IN, Pin.PULL_UP)
 ```
+
+> ![](img/pin2_pullup.png){width=inherit}
 
 - **PULL_UP** — pin idles HIGH; a button to GND reads LOW when pressed.
 - **PULL_DOWN** — pin idles LOW; a button to 3.3 V reads HIGH when pressed.
