@@ -19,6 +19,8 @@ Creates a `Timer` object with a numeric ID.
 timer1 = Timer(0)
 ```
 
+> ![](img/init1.png){width=inherit}
+
 ## `timerStart` — start with a period and callback
 
 Starts the timer. You set how often it fires, whether it repeats, and which
@@ -38,11 +40,15 @@ function to call.
 timer1.init(period=1000, mode=Timer.ONE_SHOT, callback=callback_function)
 ```
 
+> ![](img/init2.png){width=inherit}
+
 Switching the mode dropdown to `Timer.PERIODIC` makes it repeat forever:
 
 ```python
 timer1.init(period=1000, mode=Timer.PERIODIC, callback=callback_function)
 ```
+
+> ![](img/init3.png){width=inherit}
 
 > The callback function receives one argument (the timer itself), so define it
 > like `def callback_function(t):`.
@@ -61,12 +67,16 @@ Deinitialises the timer so it stops firing and frees the hardware.
 timer1.deinit()
 ```
 
+> ![](img/init4.png){width=inherit}
+
 ## Putting it together
 
 ```python
 timer1 = Timer(0)
 timer1.init(period=500, mode=Timer.PERIODIC, callback=blink)
 ```
+
+> ![](img/init5.png){width=inherit}
 
 ## Next
 
