@@ -22,8 +22,16 @@ The HC-SR04 has four pins:
 ## The blocks
 
 - **`hcsr04Init`** — set up the sensor with a trigger pin, echo pin, and echo timeout (µs).
+
+> ![](img/HC1.png){width=inherit}
+
 - **`hcsr04DistanceCm`** — read the distance in centimetres.
+
+> ![](img/HC2.png){width=inherit}
+
 - **`hcsr04DistanceMm`** — read the distance in millimetres.
+
+> ![](img/HC3.png){width=inherit}
 
 ### Initialize the sensor
 
@@ -95,6 +103,8 @@ while True:
     print(distance_cm)
     sleep(1)
 ```
+
+> ![](img/HC4.png){width=inherit}
 
 (The full `HCSR04` class shown above is generated once by the init block; only the loop is shown
 here for clarity.) Each second the program fires a ping and prints the measured distance in

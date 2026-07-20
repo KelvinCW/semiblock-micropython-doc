@@ -30,6 +30,8 @@ With the default fields (variable `servo`, pin `15`) the block generates:
 servo=Servo(15)
 ```
 
+> ![](img/servo1.png){width=inherit}
+
 The `from servo import Servo` line is added to the top of your program automatically when a servo
 block is present.
 
@@ -40,6 +42,8 @@ block is present.
 ```python
 servo_Angle(servo, 15)
 ```
+
+> ![](img/servo2.png){width=inherit}
 
 `servo_Angle(servo_object, angle)` moves the given servo to the requested angle in degrees
 (commonly 0–180).
@@ -58,6 +62,8 @@ while True:
     servo_Angle(servo, 180)
     sleep(1)
 ```
+
+> ![](img/servo3.png){width=inherit}
 
 The servo snaps to 0°, waits a second, swings to 180°, waits, and repeats — a basic back-and-forth
 sweep.

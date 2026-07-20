@@ -7,9 +7,17 @@ hand, you drag a block, fill in the GPIO pin, and the editor emits correct Micro
 These blocks live in three toolbox categories:
 
 - **DHT** — temperature & humidity from a single digital pin.
+
+> ![](img/hardblock_DHT.png){width=inherit}
+
 - **HC-SR04 Sonar** — ultrasonic distance measurement (trigger + echo).
-- **Sensors** — a grab-bag of extra peripherals: a thermistor temperature reader,
-  a 4-digit display, a DC motor, and a servo.
+
+> ![](img/hardblock_HC.png){width=inherit}
+
+- **Sensors** — a grab-bag of extra peripherals: a thermistor temperature reader, a 4-digit display, a DC motor, and a servo.
+
+> ![](img/hardblock_Sensors.png){width=inherit}
+
 
 ## What's in this section
 

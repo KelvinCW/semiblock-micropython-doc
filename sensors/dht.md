@@ -29,6 +29,8 @@ With the default fields (`dht_sensor`, pin `4`, model `DHT11`) this block genera
 dht_sensor = dht.DHT11(Pin(4))
 ```
 
+> ![](img/DHT1.png){width=inherit}
+
 Choosing **DHT22** in the dropdown changes it to `dht.DHT22(Pin(4))`. The `import dht` line is
 added automatically at the top of your program.
 
@@ -42,6 +44,8 @@ dht_sensor.measure()
 temperature = dht_sensor.temperature()
 ```
 
+> ![](img/DHT2.png){width=inherit}
+
 ### Read humidity
 
 `dhtReadHumidity` (variable `humidity`, sensor `dht_sensor`) works the same way:
@@ -50,6 +54,8 @@ temperature = dht_sensor.temperature()
 dht_sensor.measure()
 humidity = dht_sensor.humidity()
 ```
+
+> ![](img/DHT3.png){width=inherit}
 
 > **Tip:** `measure()` talks to the sensor and refreshes both readings. The DHT11 should not be
 > polled faster than about once per second (the DHT22 about once every two seconds), so leave a
@@ -69,6 +75,8 @@ while True:
     print(humidity)
     sleep(2)
 ```
+
+> ![](img/DHT4.png){width=inherit}
 
 Each loop refreshes the sensor, prints the temperature in °C and the humidity in %, then waits
 two seconds before reading again.

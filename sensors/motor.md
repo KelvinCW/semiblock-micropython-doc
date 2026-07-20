@@ -30,6 +30,8 @@ With the default fields (variable `motor`, pin `15`) the block generates:
 motor = machine.Pin(15, machine.Pin.OUT)
 ```
 
+> ![](img/motor1.png){width=inherit}
+
 ### Turn the motor on
 
 `motorOn` (variable `motor`) generates:
@@ -38,6 +40,8 @@ motor = machine.Pin(15, machine.Pin.OUT)
 motor (1)
 ```
 
+> ![](img/motor2.png){width=inherit}
+
 ### Turn the motor off
 
 `motorOff` (variable `motor`) generates:
@@ -45,6 +49,8 @@ motor (1)
 ```python
 motor (0)
 ```
+
+> ![](img/motor3.png){width=inherit}
 
 > **How it works:** the variable holds a `Pin` object, and calling it like `motor(1)` /
 > `motor(0)` sets the pin high or low — the MicroPython shorthand for `motor.value(1)` /
@@ -61,6 +67,8 @@ while True:
     motor (0)
     sleep(2)
 ```
+
+> ![](img/motor4.png){width=inherit}
 
 The motor runs for two seconds, stops for two seconds, and repeats.
 

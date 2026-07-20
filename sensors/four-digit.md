@@ -1,4 +1,4 @@
-# 4-Digit 7-Segment Display
+# [Wait Until Bug Fixed] 4-Digit 7-Segment Display
 
 A **TM1637 4-digit 7-segment display** is a small red LED module that can show four digits — great
 for clocks, counters, and sensor readouts. It uses just two signal wires (`CLK` and `DIO`) plus

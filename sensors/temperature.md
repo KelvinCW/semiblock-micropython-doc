@@ -25,6 +25,8 @@ With the default fields (variable `temp`, D0 pin `13`, ADC channel `0`) the bloc
 temp=getTemperature(13, 0)
 ```
 
+> ![](img/Sensor1.png){width=inherit}
+
 `getTemperature(D0, adc_pin)` is a helper that SemiBlock adds to the top of your program
 automatically whenever a Temperature block is used. It reads the raw ADC value, converts it to a
 voltage, applies the thermistor (Steinhart–Hart style) formula, and returns degrees Celsius — or
@@ -56,6 +58,8 @@ while True:
     print(temp)
     sleep(2)
 ```
+
+> ![](img/Sensor2.png){width=inherit}
 
 (The `getTemperature` helper above is generated automatically; only the loop is shown here.) Every
 two seconds the program reads the thermistor and prints the temperature in °C.

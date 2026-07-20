@@ -14,6 +14,8 @@ line by passing that number to `Pin(...)`:
 led = Pin(2, Pin.OUT)
 ```
 
+> ![](block_led_2.png){width=inherit}
+
 This means *"control the GPIO2 line as an output."* In SemiBlock the **Pin**
 block has a dropdown of GPIO numbers (0–49) — pick the one wired to your
 component. The number printed silk-screened on your board (sometimes `D2`, `IO2`)
@@ -59,6 +61,8 @@ The block emits exactly:
 ```python
 led = Pin(2, Pin.OUT)
 ```
+
+> ![](block_led_2.png){width=inherit}
 
 ## Next
 
