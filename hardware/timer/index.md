@@ -1,5 +1,7 @@
 # Timer
 
+> ![](img/hardblock_Timer.png){width=inherit}
+
 A **hardware timer** runs in the background and calls a function of yours at a
 fixed interval — without you writing a `while` loop. This is perfect for jobs
 that must happen regularly: blinking an LED, sampling a sensor, or updating a
@@ -29,6 +31,8 @@ from machine import Timer
 timer1 = Timer(0)
 timer1.init(period=1000, mode=Timer.PERIODIC, callback=tick)
 ```
+
+> ![](img/timer.png){width=inherit}
 
 ## Next
 

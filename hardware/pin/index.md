@@ -1,5 +1,7 @@
 # Pin
 
+> ![](img/hardblock_Pin.png){width=inherit}
+
 The **Pin** category is the foundation of all hardware control. A *pin* (short
 for GPIO) is a single electrical connection on your ESP32 that you can switch on
 and off, read as an input, or use to talk to other chips.
