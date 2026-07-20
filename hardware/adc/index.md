@@ -19,10 +19,22 @@ from machine import DAC
 
 - **[ADC — read analog](adc.md)**
   - `adcInit` — attach an ADC to a pin.
+  
+> ![](img/adc1.png){width=inherit}
+
   - `adcRead` — read the converted value.
+
+> ![](img/adc2.png){width=inherit}
+
 - **[DAC — write analog](dac.md)**
   - `dacInit` — attach a DAC to a pin.
+
+> ![](img/adc3.png){width=inherit}
+
   - `dacWrite` — output a voltage.
+
+> ![](img/adc4.png){width=inherit}
+
 
 ## Quick mental model
 
@@ -30,6 +42,8 @@ from machine import DAC
 adc1 = ADC(Pin(32))
 value = adc1.read()
 ```
+
+> ![](img/adc5.png){width=inherit}
 
 The ESP32 has two DAC outputs only, on **GPIO 25** and **GPIO 26**.
 
