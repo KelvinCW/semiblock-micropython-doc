@@ -18,6 +18,8 @@ Drives an output pin to its HIGH level (3.3 V on the ESP32).
 p0.on()
 ```
 
+> ![](img/on.png){width=inherit}
+
 Use this to light an LED, energise a relay, or send a logic HIGH.
 
 ## `off` — set the pin LOW
@@ -33,6 +35,8 @@ Drives an output pin to its LOW level (0 V / GND).
 ```python
 p0.off()
 ```
+
+> ![](img/off.png){width=inherit}
 
 ## `pinValue` — read a pin
 
@@ -50,6 +54,8 @@ result is `1` (HIGH) or `0` (LOW).
 var1=p0.value()
 ```
 
+> ![](img/var_value.png){width=inherit}
+
 ## A complete blink
 
 Combining a `pin` (output) with `on`, `off`, and `sleep`:
@@ -61,6 +67,8 @@ sleep(1)
 p0.off()
 sleep(1)
 ```
+
+> ![](img/ex1.png){width=inherit}
 
 ## Wiring notes
 
