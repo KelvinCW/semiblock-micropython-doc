@@ -15,8 +15,17 @@ from esp32 import RMT
 
 - **[RMT API](api.md)**
   - `rmtInit` — create an RMT channel on a pin.
+
+> ![](img/rmt1.png){width=inherit}
+
   - `rmtWrite` — send a list of pulse durations.
+
+> ![](img/rmt2.png){width=inherit}
+
   - `rmtDeinit` — release the channel.
+
+> ![](img/rmt3.png){width=inherit}
+
 
 ## Quick mental model
 
@@ -24,6 +33,8 @@ from esp32 import RMT
 rmt1 = RMT(0, pin=Pin(18), clock_div=80)
 rmt1.write_pulses([10, 20, 30, 40], start=True)
 ```
+
+> ![](img/rmt4.png){width=inherit}
 
 The `clock_div` sets the tick length: with an 80 MHz source, `clock_div=80`
 gives a 1 µs tick, so each number in the pulse list is a duration in
