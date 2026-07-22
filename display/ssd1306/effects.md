@@ -15,6 +15,8 @@ with a loop to make a marquee effect.
 display.scroll(10, 0)
 ```
 
+> ![](img/ssd13.png){width=inherit}
+
 ## `ssd1306_setColor` — set the draw colour
 
 Sets the colour used by following draw calls. The colour name is passed as a string.
@@ -25,6 +27,8 @@ Sets the colour used by following draw calls. The colour name is passed as a str
 display.set_color("white")
 ```
 
+> ![](img/effect1.png){width=inherit}
+
 ## `ssd1306_setFontSize` — set the text size
 
 Sets the font size used by following `text` calls. The size is passed as a string.
@@ -32,8 +36,10 @@ Sets the font size used by following `text` calls. The size is passed as a strin
 **Inputs:** fontSize (text).
 
 ```python
-display.setFontSize("16")
+display.setFontSize("10")
 ```
+
+> ![](img/effect2.png){width=inherit}
 
 ## Scrolling example
 
@@ -47,6 +53,8 @@ display.show()
 display.scroll(8, 0)
 display.show()
 ```
+
+> ![](img/effect3.png){width=inherit}
 
 > `set_color` and `setFontSize` are extensions provided by SemiBlock's `ssd1306`
 > build. If your firmware uses the plain `ssd1306` driver, stick to monochrome
