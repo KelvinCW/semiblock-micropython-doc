@@ -13,20 +13,65 @@ call `show`.
 All blocks emit `display.<method>(...)` and run on standard MicroPython firmware.
 
 - `ssd1306` — create the display over I2C
+
+> ![](img/ssd1.png){width=inherit}
+
 - `ssd1306_fill` — fill the whole screen
+  
+> ![](img/ssd2.png){width=inherit}
+
 - `ssd1306_show` — push the buffer to the screen
+
+> ![](img/ssd3.png){width=inherit}
+
 - `ssd1306_contrast` — set brightness
+
+> ![](img/ssd4.png){width=inherit}
+
 - `ssd1306_invert` — invert colours
+
+> ![](img/ssd5.png){width=inherit}
+
 - `ssd1306_rotate` — rotate the image
+
+> ![](img/ssd6.png){width=inherit}
+
 - `ssd1306_text` — draw text
+
+> ![](img/ssd7.png){width=inherit}
+
 - `ssd1306_pixel` — set one pixel
+
+> ![](img/ssd8.png){width=inherit}
+
 - `ssd1306_hline` / `ssd1306_vline` — horizontal / vertical line
+
+> ![](img/ssd9.png){width=inherit}
+
 - `ssd1306_line` — line between two points
+
+> ![](img/ssd10.png){width=inherit}
+
 - `ssd1306_rect` / `ssd1306_fillRect` — rectangle outline / filled
+
+> ![](img/ssd11.png){width=inherit}
+
 - `ssd1306_circle` / `ssd1306_fillCircle` — circle outline / filled
+
+> ![](img/ssd12.png){width=inherit}
+
 - `ssd1306_scroll` — shift the buffer
+
+> ![](img/ssd13.png){width=inherit}
+
 - `ssd1306_setColor` — set the draw colour
+
+> ![](img/ssd14.png){width=inherit}
+
 - `ssd1306_setFontSize` — set the text size
+
+> ![](img/ssd15.png){width=inherit}
+
 - `imageEditor` — paint a 128×64 bitmap inside SemiBlock
 - `drawPixels` — draw every pixel from an image array
 
@@ -40,6 +85,8 @@ display.fill(0)
 display.text("Helloworld", 0, 0)
 display.show()
 ```
+
+> ![](img/ssd16.png){width=inherit}
 
 `import ssd1306` is added automatically by SemiBlock when an SSD1306 block is present.
 
