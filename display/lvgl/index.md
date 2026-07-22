@@ -1,5 +1,7 @@
 # LVGL (Light & Versatile Graphics Library)
 
+> ![](img/Hardblock.png){width=inherit}
+
 **LVGL** is a full-colour graphics library for building real user interfaces — buttons,
 sliders, charts, animations — on a TFT screen. SemiBlock exposes LVGL through
 `import lvgl as lv` and a large family of blocks.
@@ -30,6 +32,8 @@ label1.set_text("Hello LVGL")
 while True:
     lv.task_handler()
 ```
+
+> ![](img/index1.png){width=inherit}
 
 On a real board you also need a display driver and a `TaskHandler` (see
 [Drivers](drivers.md) and [Task handler, FS driver, scrollbar mode](task-fs.md)).
