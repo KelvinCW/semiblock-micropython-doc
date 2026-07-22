@@ -12,6 +12,8 @@ the last argument `1` means "pixel on".
 display.text("Helloworld", 0, 0)
 ```
 
+> ![](img/ssd7.png){width=inherit}
+
 ## `ssd1306_pixel` — one pixel
 
 **Inputs:** x, y. Always drawn with colour `1`.
@@ -19,6 +21,8 @@ display.text("Helloworld", 0, 0)
 ```python
 display.pixel(0, 0, 1)
 ```
+
+> ![](img/ssd8.png){width=inherit}
 
 ## `ssd1306_hline` — horizontal line
 
@@ -28,6 +32,8 @@ display.pixel(0, 0, 1)
 display.hline(0, 0, 128, 1)
 ```
 
+> ![](img/draw2.png){width=inherit}
+
 ## `ssd1306_vline` — vertical line
 
 **Inputs:** x, y, width (length).
@@ -35,6 +41,8 @@ display.hline(0, 0, 128, 1)
 ```python
 display.vline(0, 0, 64, 1)
 ```
+
+> ![](img/draw1.png){width=inherit}
 
 ## `ssd1306_line` — line between two points
 
@@ -44,6 +52,8 @@ display.vline(0, 0, 64, 1)
 display.line(0, 0, 127, 63, 1)
 ```
 
+> ![](img/draw3.png){width=inherit}
+
 ## `ssd1306_rect` — rectangle outline
 
 **Inputs:** x, y, width, height.
@@ -51,6 +61,8 @@ display.line(0, 0, 127, 63, 1)
 ```python
 display.rect(0, 0, 50, 30, 1)
 ```
+
+> ![](img/draw4.png){width=inherit}
 
 ## `ssd1306_fillRect` — filled rectangle
 
@@ -60,6 +72,8 @@ display.rect(0, 0, 50, 30, 1)
 display.fill_rect(0, 0, 50, 30, 1)
 ```
 
+> ![](img/draw5.png){width=inherit}
+
 ## `ssd1306_circle` — circle outline
 
 **Inputs:** x (centre), y (centre), radius.
@@ -68,6 +82,8 @@ display.fill_rect(0, 0, 50, 30, 1)
 display.circle(64, 32, 20, 1)
 ```
 
+> ![](img/draw6.png){width=inherit}
+
 ## `ssd1306_fillCircle` — filled circle
 
 **Inputs:** x, y, radius.
@@ -75,6 +91,8 @@ display.circle(64, 32, 20, 1)
 ```python
 display.fill_circle(64, 32, 20, 1)
 ```
+
+> ![](img/draw7.png){width=inherit}
 
 ## Complete example
 
@@ -86,6 +104,8 @@ display.rect(0, 16, 50, 30, 1)
 display.fill_circle(90, 32, 15, 1)
 display.show()
 ```
+
+> ![](img/draw8.png){width=inherit}
 
 ## Next
 
