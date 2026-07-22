@@ -13,6 +13,8 @@ Creates the global `display` object over a software I2C bus.
 display = ssd1306.SSD1306_I2C(128, 64, SoftI2C(sda=Pin(21), scl=Pin(22)))
 ```
 
+> ![](img/set.png){width=inherit}
+
 The block defaults to width `128`, height `64`. Set `sda`/`scl` to match your wiring
 (common ESP32 I2C pins are 21 and 22).
 
@@ -27,6 +29,8 @@ screen before redrawing.
 display.fill(0)
 ```
 
+> ![](img/ssd2.png){width=inherit}
+
 ## `ssd1306_show` — push to the screen
 
 Sends the in-memory buffer to the OLED. Nothing is visible until you call this.
@@ -34,6 +38,8 @@ Sends the in-memory buffer to the OLED. Nothing is visible until you call this.
 ```python
 display.show()
 ```
+
+> ![](img/ssd3.png){width=inherit}
 
 ## `ssd1306_contrast` — brightness
 
@@ -43,6 +49,8 @@ display.show()
 display.contrast(255)
 ```
 
+> ![](img/ssd4.png){width=inherit}
+
 ## `ssd1306_invert` — invert colours
 
 Swaps on/off pixels. **Inputs:** dropdown `0` or `1`.
@@ -50,6 +58,8 @@ Swaps on/off pixels. **Inputs:** dropdown `0` or `1`.
 ```python
 display.invert(1)
 ```
+
+> ![](img/set2.png){width=inherit}
 
 ## `ssd1306_rotate` — rotate
 
@@ -59,6 +69,8 @@ Rotates the image 180°. **Inputs:** dropdown `True` or `False`.
 display.rotate(True)
 ```
 
+> ![](img/ssd6.png){width=inherit}
+
 ## Putting it together
 
 ```python
@@ -67,6 +79,8 @@ display.contrast(200)
 display.fill(0)
 display.show()
 ```
+
+> ![](img/set3.png){width=inherit}
 
 ## Next
 
