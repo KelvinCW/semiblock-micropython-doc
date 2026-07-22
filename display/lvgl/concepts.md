@@ -14,6 +14,8 @@ that parent and moves with it.
 scr = lv.obj()
 ```
 
+> ![](img/con1.png){width=inherit}
+
 ## Screens
 
 A **screen** is a top-level object with no parent. You build your UI on a screen, then
@@ -24,6 +26,8 @@ makes it easy to switch between "pages" of a UI.
 lv.scr_load(scr)
 ```
 
+> ![](img/con2.png){width=inherit}
+
 ## Widgets
 
 Widgets are created by passing a **parent** so LVGL knows where to place them:
@@ -32,6 +36,8 @@ Widgets are created by passing a **parent** so LVGL knows where to place them:
 label1 = lv.label(scr)
 ```
 
+> ![](img/con3.png){width=inherit}
+
 ## Styles
 
 You change how an object looks with `set_style_*` methods — background colour, text
@@ -39,8 +45,10 @@ colour, radius, padding, borders, and shadows. Most style blocks take the value 
 final `0` (the default style state):
 
 ```python
-label1.set_style_text_color(lv.color_hex(0xFFFFFF), 0)
+label.set_style_text_color(lv.color_hex(0x000000), 0)
 ```
+
+> ![](img/con4.png){width=inherit}
 
 ## Events
 
@@ -57,6 +65,8 @@ it, the screen stays blank.
 while True:
     lv.task_handler()
 ```
+
+> ![](img/con5.png){width=inherit}
 
 ## Next
 
