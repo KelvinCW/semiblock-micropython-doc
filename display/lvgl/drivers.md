@@ -15,9 +15,13 @@ Import the driver module.
 import st7796
 ```
 
+> ![](img/driver2.png){width=inherit}
+
 ```python
 import st7735
 ```
+
+> ![](img/driver3.png){width=inherit}
 
 ## `st7796Init` — create an ST7796 display
 
@@ -47,6 +51,8 @@ These work with any driver object you created above.
 display.init()
 ```
 
+> ![](img/driver4.png){width=inherit}
+
 ### `displayInitWithType`
 
 **Inputs:** display, display type.
@@ -58,8 +64,10 @@ display.init(lv.COLOR_FORMAT.RGB565)
 ### `displaySetRotation`
 
 ```python
-display.set_rotation(90)
+display.set_rotation(0)
 ```
+
+> ![](img/driver5.png){width=inherit}
 
 ### `displaySetColorInversion`
 
@@ -67,11 +75,15 @@ display.set_rotation(90)
 display.set_color_inversion(True)
 ```
 
+> ![](img/driver6.png){width=inherit}
+
 ### `displaySetBacklight`
 
 ```python
 display.set_backlight(100)
 ```
+
+> ![](img/driver1.png){width=inherit}
 
 ## Next
 
