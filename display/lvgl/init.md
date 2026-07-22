@@ -14,11 +14,15 @@ you set them up by hand.
 import lvgl as lv
 ```
 
+> ![](img/init1.png){width=inherit}
+
 ## `importLcdBus` — import the LCD bus module
 
 ```python
 import lcd_bus
 ```
+
+> ![](img/init2.png){width=inherit}
 
 ## `lcdSpiBusInit` — create an SPI bus
 
@@ -29,6 +33,8 @@ Creates the SPI bus that connects the ESP32 to the display panel.
 ```python
 display_bus = lcd_bus.SPIBus(spi_bus=spi_bus, freq=40000000, dc=8, cs=9)
 ```
+
+> ![](img/init3.png){width=inherit}
 
 ## `allocateFramebuffer` — allocate a draw buffer
 
@@ -41,6 +47,8 @@ buffers for smooth double-buffered drawing.
 fb1 = display_bus.allocate_framebuffer(32768, lcd_bus.MEMORY_SPIRAM)
 ```
 
+> ![](img/init4.png){width=inherit}
+
 ## Typical start
 
 ```python
@@ -50,6 +58,8 @@ display_bus = lcd_bus.SPIBus(spi_bus=spi_bus, freq=40000000, dc=8, cs=9)
 fb1 = display_bus.allocate_framebuffer(32768, lcd_bus.MEMORY_SPIRAM)
 fb2 = display_bus.allocate_framebuffer(32768, lcd_bus.MEMORY_SPIRAM)
 ```
+
+> ![](img/init5.png){width=inherit}
 
 Once the bus and buffers exist, hand them to a display driver — see
 [Drivers](drivers.md).
